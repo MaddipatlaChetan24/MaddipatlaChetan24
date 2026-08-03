@@ -4,7 +4,7 @@
 
 # Maddipatla Chetan
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
 
 <img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
@@ -14,10 +14,11 @@
 
 <h2 align="center">About Me</h2>
 
-I'm a **B.Tech Computer Science** student passionate about designing intelligent systems using Artificial Intelligence.
+I'm a **B.Tech Computer Science** student passionate about building intelligent systems using Artificial Intelligence and Machine Learning.
 
 My primary interests include:
 
+- Artificial Intelligence
 - Large Language Models (LLMs)
 - Generative AI
 - Retrieval-Augmented Generation (RAG)
@@ -26,6 +27,7 @@ My primary interests include:
 - Machine Learning
 - Deep Learning
 - Computer Vision
+- Natural Language Processing
 - MLOps
 
 ---
@@ -44,9 +46,9 @@ My primary interests include:
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
 
 </p>
 
@@ -56,17 +58,17 @@ My primary interests include:
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true"/>
 
 </p>
 
 ---
 
-<h2 align="center">Contribution Activity Graph</h2>
+<h2 align="center">Contribution Summary</h2>
 
 <p align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=tokyo-night&hide_border=true&radius=12"/>
+<img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaddipatlaChetan24&theme=github_dark"/>
 
 </p>
 
@@ -77,6 +79,26 @@ My primary interests include:
 <p align="center">
 
 <img src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
+
+</p>
+
+---
+
+<h2 align="center">GitHub Metrics</h2>
+
+<p align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MaddipatlaChetan24&theme=github_dark"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MaddipatlaChetan24&theme=github_dark"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MaddipatlaChetan24&theme=github_dark"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MaddipatlaChetan24&theme=github_dark&utcOffset=5.5"/>
 
 </p>
 
@@ -104,4 +126,8 @@ My primary interests include:
 
 </p>
 
+<div align="center">
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=0:0F2027,50:203A43,100:2C5364"/>
+
+</div>
