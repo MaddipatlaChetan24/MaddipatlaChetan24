@@ -4,7 +4,9 @@
 
 <h1 align="center">I'm Maddipatla Chetan</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Production-Ready+AI+Applications"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmented+Generation;Agentic+AI;Multi-Agent+Systems;Deep+Learning;Building+Intelligent+AI+Applications"/>
+
+<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
 </div>
 
@@ -12,11 +14,11 @@
 
 <h2 align="center">About Me</h2>
 
-I'm **Maddipatla Chetan**, a **B.Tech Computer Science** student specializing in **Artificial Intelligence**, with a focus on building intelligent, production-grade systems.
+I'm **Maddipatla Chetan**, a **B.Tech Computer Science** student specializing in **Artificial Intelligence** and Machine Learning.
 
-My work sits at the intersection of **Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Agentic AI, and Multi-Agent Systems**. I design and ship AI applications end-to-end — from model selection and fine-tuning to API serving, evaluation, and deployment — with a strong foundation in **Deep Learning, Computer Vision, Natural Language Processing, and MLOps**.
+I build practical AI systems — from **Generative AI** and **LLM applications** to **RAG pipelines**, **Agentic AI**, and **Computer Vision** — with a strong foundation in **Natural Language Processing, Deep Learning, and MLOps**. I enjoy turning research concepts into working software, experimenting with model architectures, and shipping end-to-end AI solutions.
 
-I care about building AI that is not just novel, but reliable, scalable, and useful in the real world.
+I approach every project with an engineering mindset — clear problem definition, thoughtful evaluation, and clean deployment.
 
 ---
 
@@ -24,17 +26,17 @@ I care about building AI that is not just novel, but reliable, scalable, and use
 
 <p align="center">
 
-Designing agentic AI systems that plan, reason, and collaborate across multiple specialized agents.
+Building LLM-powered applications and AI agents that plan, reason, and collaborate across specialized tasks.
 
 <br>
 <br>
 
-Building LLM-powered applications with robust retrieval pipelines (RAG/CAG), grounded generation, and measurable evaluation.
+Working with RAG and CAG architectures for grounded, reliable generation — and evaluating them rigorously.
 
 <br>
 <br>
 
-Exploring efficient fine-tuning techniques (QLoRA), model alignment, and scalable AI infrastructure.
+Exploring efficient fine-tuning (LoRA / QLoRA), model alignment, and production deployment workflows.
 
 </p>
 
@@ -60,28 +62,30 @@ Exploring efficient fine-tuning techniques (QLoRA), model alignment, and scalabl
 
 <h2 align="center">Tech Stack</h2>
 
-### Languages
+### Programming
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,c,java"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,java"/>
 </p>
 
 ### AI / Machine Learning
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,openai"/>
+<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 </p>
 
-### Backend & APIs
+### Backend
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=fastapi,flask"/>
 </p>
 
-### Databases & Vector Stores
+### Databases
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,pinecone"/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql"/>
+<img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
 </p>
 
 ### Tools & Cloud
@@ -94,13 +98,14 @@ Exploring efficient fine-tuning techniques (QLoRA), model alignment, and scalabl
 
 <h2 align="center">Featured Projects</h2>
 
-| Project | Description | Technology |
-|----------|-------------|------------|
-| **GuardianAI** | Multi-agent intelligent surveillance system that fuses real-time computer vision with LLM-based reasoning for automated threat detection and alerting. | Python, OpenCV, LangChain, FastAPI |
-| **Medical Chatbot (RAG)** | Retrieval-augmented medical assistant that grounds LLM responses in curated clinical documents to improve answer reliability and safety. | LangChain, Vector DB, LLMs, FastAPI |
-| **Cache-Augmented Generation** | Retrieval-free inference pipeline using precomputed key-value caches, reducing latency and cost for repeated query patterns. | Transformers, PyTorch |
-| **Neural Language Engine** | LSTM-based next-word prediction engine trained on large text corpora for language modeling experiments. | PyTorch, NLP |
-| **Falcon-7B Fine-Tuning (QLoRA)** | Parameter-efficient fine-tuning of Falcon-7B using QLoRA quantization, enabling full-scale LLM adaptation on consumer GPUs. | Hugging Face, Transformers, QLoRA |
+| Project | Problem Solved | Technology | AI Techniques |
+|----------|---------------|------------|---------------|
+| **GuardianAI** | Real-time threat detection and automated alerting in surveillance video | Python, OpenCV, LangChain, FastAPI | Computer Vision, Multi-Agent Reasoning |
+| **Medical Chatbot (RAG)** | Grounded, reliable medical answers using curated clinical documents | LangChain, Vector DB, FastAPI | Retrieval-Augmented Generation, Embeddings |
+| **Cache-Augmented Generation** | Reduced latency and cost of repeated LLM inference queries | Transformers, PyTorch | Key-Value Caching, Inference Optimization |
+| **Falcon-7B Fine-Tuning (QLoRA)** | Full-scale LLM adaptation on consumer-grade GPUs | Hugging Face, Transformers, QLoRA | Parameter-Efficient Fine-Tuning, Quantization |
+| **Neural Language Engine** | Next-word prediction for language modeling experiments | PyTorch, NLP | Recurrent Neural Networks (LSTM), Language Modeling |
+| **Navigo AI** | Multi-agent travel planning with coordinated task orchestration | Python, LangChain, FastAPI | Agentic AI, Multi-Agent Systems |
 
 ---
 
@@ -111,6 +116,21 @@ Exploring efficient fine-tuning techniques (QLoRA), model alignment, and scalabl
 <img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
 
 <img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
+
+---
+
+<h2 align="center">Research Interests</h2>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/LLM%20Alignment-0E7490?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Agents-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Efficient%20Fine%20Tuning-F97316?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Multimodal%20AI-0EA5E9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Safety-DC2626?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Deep%20Learning%20Optimization-059669?style=for-the-badge"/>
 
 </p>
 
@@ -148,8 +168,7 @@ Exploring efficient fine-tuning techniques (QLoRA), model alignment, and scalabl
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<!-- Replace with your LinkedIn -->
-<a href="https://linkedin.com/in/YOUR-LINKEDIN">
+<a href="https://www.linkedin.com/in/maddipatla-chetan/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
