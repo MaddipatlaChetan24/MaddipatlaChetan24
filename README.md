@@ -64,11 +64,11 @@ My primary interests include:
 
 ---
 
-<h2 align="center">Contribution Graph</h2>
+<h2 align="center">Contribution Calendar</h2>
 
 <p align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=react-dark&hide_border=true"/>
+<img src="https://ghchart.rshah.org/218c14/MaddipatlaChetan24"/>
 
 </p>
 
