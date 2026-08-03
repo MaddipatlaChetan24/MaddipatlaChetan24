@@ -4,7 +4,7 @@
 
 # Maddipatla Chetan
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
 
 <img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
@@ -44,7 +44,7 @@ My primary interests include:
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=tokyonight&hide_border=true"/>
 
@@ -62,21 +62,11 @@ My primary interests include:
 
 ---
 
-<h2 align="center">Contribution Graph</h2>
+<h2 align="center">Contribution Activity Graph</h2>
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=tokyo-night&hide_border=true"/>
-
-</p>
-
----
-
-<h2 align="center">GitHub Trophies</h2>
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=MaddipatlaChetan24&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10"/>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=tokyo-night&hide_border=true&radius=12"/>
 
 </p>
 
