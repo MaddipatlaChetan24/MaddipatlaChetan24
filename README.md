@@ -16,7 +16,6 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
 </div>
 
@@ -89,7 +88,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 <h2 align="center">Featured Projects</h2>
 
-### 🛡️ GuardianAI — Multi-Agent Intelligent Surveillance
+### GuardianAI — Multi-Agent Intelligent Surveillance
 
 **Problem:** Real-time threat detection and alerting across surveillance video feeds.
 
@@ -116,7 +115,7 @@ flowchart LR
 
 ---
 
-### 💬 Medical Chatbot (RAG) — Grounded Medical Assistant
+### Medical Chatbot (RAG) — Grounded Medical Assistant
 
 **Problem:** LLMs can hallucinate on medical queries; answers must be grounded in trusted clinical documents.
 
@@ -143,7 +142,7 @@ flowchart LR
 
 ---
 
-### 🧠 Cache-Augmented Generation (CAG) — Efficient LLM Inference
+### Cache-Augmented Generation (CAG) — Efficient LLM Inference
 
 **Problem:** Repeated LLM inference for similar queries is slow and costly.
 
@@ -170,7 +169,7 @@ flowchart LR
 
 ---
 
-### 🤖 Falcon-7B Fine-Tuning (QLoRA) — Efficient LLM Adaptation
+### Falcon-7B Fine-Tuning (QLoRA) — Efficient LLM Adaptation
 
 **Problem:** Fine-tuning 7B-parameter LLMs requires expensive GPUs.
 
@@ -197,7 +196,7 @@ flowchart LR
 
 ---
 
-### ✈️ Navigo AI — Multi-Agent Travel Planner
+### Navigo AI — Multi-Agent Travel Planner
 
 **Problem:** Travel planning spans search, logistics, and preferences — one model handles it poorly.
 
