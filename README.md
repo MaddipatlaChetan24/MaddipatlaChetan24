@@ -87,31 +87,6 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 ---
 
 
-<h2 align="center">Currently Learning</h2>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Agentic%20Frameworks%20(LangGraph)-00C2FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Model%20Alignment%20(RLHF)-9333EA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LLM%20Evaluation-059669?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Multimodal%20Systems-0EA5E9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI%20Deployment-111827?style=for-the-badge"/>
-
-</p>
-
----
-
-<h2 align="center">AI Models Worked With</h2>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Falcon--7B%20(QLoRA)-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/OpenAI%20GPT%20API-10A37F?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hugging%20Face%20Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Sentence%20Embeddings-336791?style=for-the-badge"/>
-
-</p>
-
 ---
 
 <h2 align="center">GitHub Statistics</h2>
