@@ -1,10 +1,10 @@
+<div align="center">
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=Maddipatla%20Chetan&fontSize=50&fontAlignY=40&animation=fadeIn"/>
 
-# Maddipatla Chetan
+<h1 align="center">I'm Maddipatla Chetan</h1>
 
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Production-Ready+AI+Applications"/>
-
-<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
 </div>
 
