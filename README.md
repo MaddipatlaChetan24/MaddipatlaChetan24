@@ -1,12 +1,22 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=Maddipatla%20Chetan&fontSize=50&fontAlignY=40&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F2027,50:203A43,100:2C5364&text=Maddipatla%20Chetan&fontSize=50&fontAlignY=38&animation=fadeIn"/>
 
 <h1 align="center">I'm Maddipatla Chetan</h1>
 
+<sub><i>AI Engineer · ML Researcher · B.Tech Computer Science</i></sub>
+
+<br>
+
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmented+Generation;Agentic+AI;Multi-Agent+Systems;Deep+Learning;Building+Intelligent+AI+Applications"/>
 
+<br>
 
+**Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
 </div>
 
@@ -14,47 +24,23 @@
 
 <h2 align="center">About Me</h2>
 
-I'm **Maddipatla Chetan**, a **B.Tech Computer Science** student specializing in **Artificial Intelligence** and Machine Learning.
+I'm **Maddipatla Chetan**, a **B.Tech Computer Science** student specializing in **Artificial Intelligence and Machine Learning**.
 
-I build practical AI systems — from **Generative AI** and **LLM applications** to **RAG pipelines**, **Agentic AI**, and **Computer Vision** — with a strong foundation in **Natural Language Processing, Deep Learning, and MLOps**. I enjoy turning research concepts into working software, experimenting with model architectures, and shipping end-to-end AI solutions.
+I design and build AI systems end-to-end — **Generative AI applications, LLM-powered products, RAG pipelines, agentic workflows, and computer vision solutions** — with a foundation in **NLP, Deep Learning, and MLOps**.
 
-I approach every project with an engineering mindset — clear problem definition, thoughtful evaluation, and clean deployment.
-
----
-
-<h2 align="center">Current Focus</h2>
-
-<p align="center">
-
-Building LLM-powered applications and AI agents that plan, reason, and collaborate across specialized tasks.
-
-<br>
-<br>
-
-Working with RAG and CAG architectures for grounded, reliable generation — and evaluating them rigorously.
-
-<br>
-<br>
-
-Exploring efficient fine-tuning (LoRA / QLoRA), model alignment, and production deployment workflows.
-
-</p>
+My focus: take an idea, validate it, build it, evaluate it, and ship it — bridging research and production with an engineering mindset.
 
 ---
 
-<h2 align="center">Areas of Interest</h2>
+<h2 align="center">What I Build</h2>
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Generative%20AI-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Large%20Language%20Models-9333EA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Retrieval%20Augmented%20Generation-059669?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Agentic%20AI-7C3AED?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Multi%20Agent%20Systems-DC2626?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Deep%20Learning-F97316?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Computer%20Vision-0EA5E9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Natural%20Language%20Processing-111827?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MLOps-0E7490?style=for-the-badge"/>
+| AI Applications | LLM-powered products, RAG chatbots, agentic systems |
+|---|---|
+| Computer Vision | Real-time detection, surveillance intelligence |
+| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
+| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
 
 </p>
 
@@ -103,26 +89,139 @@ Exploring efficient fine-tuning (LoRA / QLoRA), model alignment, and production 
 
 <h2 align="center">Featured Projects</h2>
 
-| Project | Problem Solved | Technology | AI Techniques |
-|----------|---------------|------------|---------------|
-| **GuardianAI** | Real-time threat detection and automated alerting in surveillance video | Python, OpenCV, LangChain, FastAPI | Computer Vision, Multi-Agent Reasoning |
-| **Medical Chatbot (RAG)** | Grounded, reliable medical answers using curated clinical documents | LangChain, Vector DB, FastAPI | Retrieval-Augmented Generation, Embeddings |
-| **Cache-Augmented Generation** | Reduced latency and cost of repeated LLM inference queries | Transformers, PyTorch | Key-Value Caching, Inference Optimization |
-| **Falcon-7B Fine-Tuning (QLoRA)** | Full-scale LLM adaptation on consumer-grade GPUs | Hugging Face, Transformers, QLoRA | Parameter-Efficient Fine-Tuning, Quantization |
-| **Neural Language Engine** | Next-word prediction for language modeling experiments | PyTorch, NLP | Recurrent Neural Networks (LSTM), Language Modeling |
-| **Navigo AI** | Multi-agent travel planning with coordinated task orchestration | Python, LangChain, FastAPI | Agentic AI, Multi-Agent Systems |
+### 🛡️ GuardianAI — Multi-Agent Intelligent Surveillance
+
+**Problem:** Real-time threat detection and alerting across surveillance video feeds.
+
+**Solution:** A multi-agent pipeline that fuses OpenCV-based computer vision with LLM-based reasoning to detect, classify, and alert on threats automatically.
+
+| | |
+|---|---|
+| **Tech Stack** | Python, OpenCV, LangChain, FastAPI |
+| **AI Techniques** | Computer Vision, Multi-Agent Reasoning, Object Detection |
+| **Links** | [Repository](https://github.com/MaddipatlaChetan24/guardianai-real-time-threat-detection) |
+
+<details>
+<summary><b>Architecture Overview</b></summary>
+
+```mermaid
+flowchart LR
+    A[Video Streams] --> B[OpenCV Detection]
+    B --> C[Agent Orchestrator]
+    C --> D[LLM Reasoning]
+    D --> E[Alerts & Dashboard]
+```
+
+</details>
 
 ---
 
-<h2 align="center">GitHub Statistics</h2>
+### 💬 Medical Chatbot (RAG) — Grounded Medical Assistant
 
-<p align="center">
+**Problem:** LLMs can hallucinate on medical queries; answers must be grounded in trusted clinical documents.
 
-<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
+**Solution:** A retrieval-augmented pipeline that embeds curated medical documents into a vector store and grounds every LLM response in retrieved evidence.
 
-<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
+| | |
+|---|---|
+| **Tech Stack** | LangChain, Vector DB, FastAPI, LLMs |
+| **AI Techniques** | Retrieval-Augmented Generation, Embeddings, Semantic Search |
+| **Links** | [Repository](https://github.com/MaddipatlaChetan24/Medical-Chatbot-with-LLMs) |
 
-</p>
+<details>
+<summary><b>Architecture Overview</b></summary>
+
+```mermaid
+flowchart LR
+    A[User Query] --> B[Embedding]
+    B --> C[Vector DB Retrieval]
+    C --> D[LLM Grounded Answer]
+    D --> E[Response]
+```
+
+</details>
+
+---
+
+### 🧠 Cache-Augmented Generation (CAG) — Efficient LLM Inference
+
+**Problem:** Repeated LLM inference for similar queries is slow and costly.
+
+**Solution:** Precomputes and reuses key-value caches, eliminating per-query re-processing for repeated contexts — a retrieval-free alternative to RAG.
+
+| | |
+|---|---|
+| **Tech Stack** | Transformers, PyTorch |
+| **AI Techniques** | Key-Value Caching, Inference Optimization |
+| **Links** | [Repository](https://github.com/MaddipatlaChetan24/cache-augmented-generation) |
+
+<details>
+<summary><b>Architecture Overview</b></summary>
+
+```mermaid
+flowchart LR
+    A[Documents] --> B[Precompute KV Cache]
+    B --> C[Cache Store]
+    D[Query] --> E[Cache Retrieval]
+    E --> F[LLM Generation]
+```
+
+</details>
+
+---
+
+### 🤖 Falcon-7B Fine-Tuning (QLoRA) — Efficient LLM Adaptation
+
+**Problem:** Fine-tuning 7B-parameter LLMs requires expensive GPUs.
+
+**Solution:** Applied QLoRA quantization + LoRA adapters to fine-tune Falcon-7B on consumer hardware, adapting the model to domain tasks without full fine-tuning.
+
+| | |
+|---|---|
+| **Tech Stack** | Hugging Face, Transformers, QLoRA |
+| **AI Techniques** | Parameter-Efficient Fine-Tuning, 4-bit Quantization |
+| **Links** | [Repository](https://github.com/MaddipatlaChetan24/falcon-7b-qlora-finetuning) |
+
+<details>
+<summary><b>Architecture Overview</b></summary>
+
+```mermaid
+flowchart LR
+    A[Falcon-7B] --> B[QLoRA Quantization]
+    B --> C[LoRA Adapters]
+    C --> D[Fine-Tuned Model]
+    D --> E[Inference]
+```
+
+</details>
+
+---
+
+### ✈️ Navigo AI — Multi-Agent Travel Planner
+
+**Problem:** Travel planning spans search, logistics, and preferences — one model handles it poorly.
+
+**Solution:** Multiple specialized agents (search, itinerary, logistics) orchestrate together to produce complete, coordinated travel plans.
+
+| | |
+|---|---|
+| **Tech Stack** | Python, LangChain, FastAPI |
+| **AI Techniques** | Agentic AI, Multi-Agent Orchestration, Tool Use |
+| **Links** | [Repository](https://github.com/MaddipatlaChetan24/Navigo-A-Multi-Agent-Travel-Planner) |
+
+---
+
+### 📖 Neural Language Engine — LSTM Language Modeling
+
+**Problem:** Explore next-word prediction at scale for language modeling.
+
+**Solution:** Trained an LSTM-based recurrent model on large text corpora to predict next words and study sequential language patterns.
+
+| | |
+|---|---|
+| **Tech Stack** | PyTorch, NLP |
+| **AI Techniques** | Recurrent Neural Networks (LSTM), Language Modeling |
+| **Links** | [Repository](https://github.com/MaddipatlaChetan24/Neural-Language-Engine) |
 
 ---
 
@@ -136,6 +235,51 @@ Exploring efficient fine-tuning (LoRA / QLoRA), model alignment, and production 
 <img src="https://img.shields.io/badge/Multimodal%20AI-0EA5E9?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/AI%20Safety-DC2626?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Deep%20Learning%20Optimization-059669?style=for-the-badge"/>
+
+</p>
+
+---
+
+<h2 align="center">Currently Learning</h2>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Agentic%20Frameworks%20(LangGraph)-00C2FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Model%20Alignment%20(RLHF)-9333EA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLM%20Evaluation-059669?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Multimodal%20Systems-0EA5E9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Deployment-111827?style=for-the-badge"/>
+
+</p>
+
+---
+
+<h2 align="center">AI Models Worked With</h2>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Falcon--7B%20(QLoRA)-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/OpenAI%20GPT%20API-10A37F?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hugging%20Face%20Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Sentence%20Embeddings-336791?style=for-the-badge"/>
+
+</p>
+
+---
+
+<h2 align="center">GitHub Statistics</h2>
+
+<p align="center">
+
+<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
+
+<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true"/>
 
 </p>
 
@@ -156,6 +300,8 @@ Exploring efficient fine-tuning (LoRA / QLoRA), model alignment, and production 
 <p align="center">
 
 <img width="100%" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
+
+<sub><i>My contribution history, animated.</i></sub>
 
 </p>
 
