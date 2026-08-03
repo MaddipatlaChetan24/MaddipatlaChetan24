@@ -1,5 +1,3 @@
-<div align="center">
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=Maddipatla%20Chetan&fontSize=50&fontAlignY=40&animation=fadeIn"/>
 
 # Maddipatla Chetan
@@ -14,9 +12,11 @@
 
 <h2 align="center">About Me</h2>
 
-I'm a **B.Tech Computer Science** student passionate about designing intelligent systems powered by Artificial Intelligence.
+I'm **Maddipatla Chetan**, a **B.Tech Computer Science** student specializing in **Artificial Intelligence**, with a focus on building intelligent, production-grade systems.
 
-I enjoy building production-ready AI applications involving **Large Language Models, Generative AI, Retrieval-Augmented Generation, Computer Vision, Deep Learning, and Multi-Agent AI Systems.**
+My work sits at the intersection of **Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Agentic AI, and Multi-Agent Systems**. I design and ship AI applications end-to-end — from model selection and fine-tuning to API serving, evaluation, and deployment — with a strong foundation in **Deep Learning, Computer Vision, Natural Language Processing, and MLOps**.
+
+I care about building AI that is not just novel, but reliable, scalable, and useful in the real world.
 
 ---
 
@@ -24,7 +24,17 @@ I enjoy building production-ready AI applications involving **Large Language Mod
 
 <p align="center">
 
-Artificial Intelligence • Large Language Models • Agentic AI • Multi-Agent Systems • Retrieval-Augmented Generation • Deep Learning • Computer Vision • NLP • MLOps
+Designing agentic AI systems that plan, reason, and collaborate across multiple specialized agents.
+
+<br>
+<br>
+
+Building LLM-powered applications with robust retrieval pipelines (RAG/CAG), grounded generation, and measurable evaluation.
+
+<br>
+<br>
+
+Exploring efficient fine-tuning techniques (QLoRA), model alignment, and scalable AI infrastructure.
 
 </p>
 
@@ -34,14 +44,15 @@ Artificial Intelligence • Large Language Models • Agentic AI • Multi-Agent
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-111827?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Generative%20AI-2563EB?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Large%20Language%20Models-9333EA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RAG-059669?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CAG-F97316?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Multi--Agent%20AI-DC2626?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Retrieval%20Augmented%20Generation-059669?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Agentic%20AI-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Multi%20Agent%20Systems-DC2626?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Deep%20Learning-F97316?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Computer%20Vision-0EA5E9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Deep%20Learning-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Natural%20Language%20Processing-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MLOps-0E7490?style=for-the-badge"/>
 
 </p>
 
@@ -58,22 +69,22 @@ Artificial Intelligence • Large Language Models • Agentic AI • Multi-Agent
 ### AI / Machine Learning
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,openai"/>
 </p>
 
-### Backend
+### Backend & APIs
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=fastapi,flask"/>
 </p>
 
-### Databases
+### Databases & Vector Stores
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql"/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,pinecone"/>
 </p>
 
-### Tools
+### Tools & Cloud
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,aws"/>
@@ -81,18 +92,27 @@ Artificial Intelligence • Large Language Models • Agentic AI • Multi-Agent
 
 ---
 
-<h2 align="center">Featured Repositories</h2>
+<h2 align="center">Featured Projects</h2>
 
-| Project | Description |
-|----------|-------------|
-| GuardianAI | Multi-Agent Intelligent Surveillance System |
-| Medical Chatbot | Retrieval-Augmented Medical Assistant |
-| Neural Language Engine | LSTM-based Next Word Prediction |
-| Facial Feature Intelligence Engine | Real-Time Computer Vision |
-| Cache-Augmented Generation | Efficient LLM Retrieval Pipeline |
+| Project | Description | Technology |
+|----------|-------------|------------|
+| **GuardianAI** | Multi-agent intelligent surveillance system that fuses real-time computer vision with LLM-based reasoning for automated threat detection and alerting. | Python, OpenCV, LangChain, FastAPI |
+| **Medical Chatbot (RAG)** | Retrieval-augmented medical assistant that grounds LLM responses in curated clinical documents to improve answer reliability and safety. | LangChain, Vector DB, LLMs, FastAPI |
+| **Cache-Augmented Generation** | Retrieval-free inference pipeline using precomputed key-value caches, reducing latency and cost for repeated query patterns. | Transformers, PyTorch |
+| **Neural Language Engine** | LSTM-based next-word prediction engine trained on large text corpora for language modeling experiments. | PyTorch, NLP |
+| **Falcon-7B Fine-Tuning (QLoRA)** | Parameter-efficient fine-tuning of Falcon-7B using QLoRA quantization, enabling full-scale LLM adaptation on consumer GPUs. | Hugging Face, Transformers, QLoRA |
 
 ---
 
+<h2 align="center">GitHub Statistics</h2>
+
+<p align="center">
+
+<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
+
+<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
 
 ---
 
