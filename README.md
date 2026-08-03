@@ -1,22 +1,28 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=Maddipatla%20Chetan&fontSize=50&fontAlignY=40&animation=fadeIn"/>
+# Hi, I'm Maddipatla Chetan 👋
 
-# Maddipatla Chetan
+**AI Engineer** | Generative AI | LLMs | Multi-Agent Systems
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Production-Ready+AI+Applications"/>
+<br>
+
+I build production-ready AI applications using **LLMs, RAG, Agentic AI, Computer Vision, and Deep Learning.**
+
+<br>
+
+**Currently exploring:**
+
+• AI Agents<br>
+• Multi-Agent Systems<br>
+• LLM Fine-Tuning<br>
+• AI Infrastructure
+
+<br>
+<br>
 
 <img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
 </div>
-
----
-
-<h2 align="center">About Me</h2>
-
-I'm a **B.Tech Computer Science** student passionate about designing intelligent systems powered by Artificial Intelligence.
-
-I enjoy building production-ready AI applications involving **Large Language Models, Generative AI, Retrieval-Augmented Generation, Computer Vision, Deep Learning, and Multi-Agent AI Systems.**
 
 ---
 
@@ -97,9 +103,9 @@ Artificial Intelligence • Large Language Models • Agentic AI • Multi-Agent
 
 <p align="center">
 
-<img height="190" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
+<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
 
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
+<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
 
 </p>
 
