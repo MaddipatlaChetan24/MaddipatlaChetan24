@@ -68,7 +68,10 @@ My primary interests include:
 
 <p align="center">
 
-<img src="https://ghchart.rshah.org/218c14/MaddipatlaChetan24"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/main/github-metrics-dark.svg">
+  <img width="100%" alt="GitHub contribution calendar" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/main/github-metrics-light.svg">
+</picture>
 
 </p>
 
