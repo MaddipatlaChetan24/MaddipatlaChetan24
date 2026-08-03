@@ -93,15 +93,6 @@ Artificial Intelligence • Large Language Models • Agentic AI • Multi-Agent
 
 ---
 
-<h2 align="center">GitHub Statistics</h2>
-
-<p align="center">
-
-<img height="190" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
-
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
-
-</p>
 
 ---
 
