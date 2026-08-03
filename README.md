@@ -40,15 +40,10 @@ My interests include:
 
 # GitHub Statistics
 
-<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=tokyonight&hide_border=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
 
 # GitHub Streak
 
