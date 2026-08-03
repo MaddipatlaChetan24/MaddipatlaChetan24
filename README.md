@@ -1,20 +1,22 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F2027,50:203A43,100:2C5364&text=Maddipatla%20Chetan&fontSize=45&fontAlignY=40&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=Maddipatla%20Chetan&fontSize=50&fontAlignY=40&animation=fadeIn"/>
 
-<h1>Hi, I'm Maddipatla Chetan</h1>
+# Maddipatla Chetan
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
+
+<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
 </div>
 
 ---
 
-# About Me
+<h2 align="center">About Me</h2>
 
-I'm a B.Tech Computer Science student passionate about building intelligent systems using Artificial Intelligence, Large Language Models, Machine Learning, Computer Vision, and Multi-Agent AI.
+I'm a **B.Tech Computer Science** student passionate about designing intelligent systems using Artificial Intelligence.
 
-My interests include:
+My primary interests include:
 
 - Large Language Models (LLMs)
 - Generative AI
@@ -28,7 +30,7 @@ My interests include:
 
 ---
 
-# Tech Stack
+<h2 align="center">Tech Stack</h2>
 
 <p align="center">
 
@@ -38,14 +40,19 @@ My interests include:
 
 ---
 
-# GitHub Statistics
+<h2 align="center">GitHub Statistics</h2>
+
+<p align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=tokyonight&hide_border=true"/>
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=tokyonight&hide_border=true"/>
 
+</p>
 
-# GitHub Streak
+---
+
+<h2 align="center">GitHub Streak</h2>
 
 <p align="center">
 
@@ -55,7 +62,7 @@ My interests include:
 
 ---
 
-# Contribution Graph
+<h2 align="center">Contribution Graph</h2>
 
 <p align="center">
 
@@ -65,17 +72,17 @@ My interests include:
 
 ---
 
-# GitHub Trophies
+<h2 align="center">GitHub Trophies</h2>
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=MaddipatlaChetan24&theme=tokyonight&no-frame=true&row=2&column=4"/>
+<img src="https://github-profile-trophy.vercel.app/?username=MaddipatlaChetan24&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10"/>
 
 </p>
 
 ---
 
-# Snake Contribution Animation
+<h2 align="center">Snake Contribution Animation</h2>
 
 <p align="center">
 
@@ -85,7 +92,7 @@ My interests include:
 
 ---
 
-# Connect
+<h2 align="center">Connect With Me</h2>
 
 <p align="center">
 
@@ -107,8 +114,4 @@ My interests include:
 
 </p>
 
-<p align="center">
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=0:0F2027,50:203A43,100:2C5364"/>
-
-</p>
