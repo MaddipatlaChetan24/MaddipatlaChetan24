@@ -4,7 +4,7 @@
 
 # Maddipatla Chetan
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence;Generative+AI;Large+Language+Models;Machine+Learning;Computer+Vision;Multi-Agent+Systems;Building+Real-World+AI+Applications"/>
 
 <img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=for-the-badge&color=0e75b6"/>
 
@@ -46,9 +46,9 @@ My primary interests include:
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
+<img height="170" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true"/>
 
 </p>
 
@@ -64,11 +64,11 @@ My primary interests include:
 
 ---
 
-<h2 align="center">Contribution Summary</h2>
+<h2 align="center">Contribution Graph</h2>
 
 <p align="center">
 
-<img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaddipatlaChetan24&theme=github_dark"/>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=react-dark&hide_border=true"/>
 
 </p>
 
@@ -84,21 +84,11 @@ My primary interests include:
 
 ---
 
-<h2 align="center">GitHub Metrics</h2>
+<h2 align="center">GitHub Trophies</h2>
 
 <p align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MaddipatlaChetan24&theme=github_dark"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MaddipatlaChetan24&theme=github_dark"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MaddipatlaChetan24&theme=github_dark"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MaddipatlaChetan24&theme=github_dark&utcOffset=5.5"/>
+<img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=MaddipatlaChetan24&theme=onedark&no-frame=true&margin-w=10&margin-h=10"/>
 
 </p>
 
