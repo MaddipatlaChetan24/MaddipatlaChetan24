@@ -65,33 +65,38 @@ Exploring efficient fine-tuning (LoRA / QLoRA), model alignment, and production 
 ### Programming
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,java"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,java&perline=5"/>
 </p>
 
 ### AI / Machine Learning
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,openai"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,openai&perline=7"/>
+</p>
+
+### AI Frameworks & Libraries
+
+<p align="center">
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
 </p>
 
 ### Backend
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=fastapi,flask"/>
+<img src="https://skillicons.dev/icons?i=fastapi,flask&perline=4"/>
 </p>
 
 ### Databases
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql"/>
-<img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=5"/>
 </p>
 
 ### Tools & Cloud
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,aws"/>
+<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,aws&perline=8"/>
 </p>
 
 ---
