@@ -47,11 +47,6 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 <h2 align="center">Tech Stack</h2>
 
-### Programming
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,java&perline=5"/>
-</p>
 
 ### AI / Machine Learning
 
