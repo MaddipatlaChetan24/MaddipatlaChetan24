@@ -47,16 +47,23 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 <h2 align="center">Tech Stack</h2>
 
-
 ### AI / Machine Learning
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,langchain,openai&perline=7"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,docker&perline=8"/>
 </p>
 
 ### AI Frameworks & Libraries
 
 <p align="center">
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 <img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
 </p>
@@ -76,7 +83,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 ### Tools & Cloud
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,aws&perline=8"/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode,aws&perline=8"/>
 </p>
 
 ---
