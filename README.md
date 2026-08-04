@@ -6,7 +6,7 @@
 
 </div>
 
-<sub><i>AI Engineer · ML Researcher · B.Tech Computer Science</i></sub>
+<sub><i>Artificial Intelligence • Generative AI • Large Language Models • Computer Vision</i></sub>
 
 <br>
 
