@@ -170,18 +170,25 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 <img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=flat-square&color=blue" />
 
-</p>
-
----
-
-<p align="center">
-
-<i>"Building intelligent systems that solve real-world problems."</i>
 
 </p>
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=0:0F2027,50:203A43,100:2C5364"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:0F2027,50:203A43,100:2C5364"/>
+
+<br>
+
+<h3>Thanks for visiting my profile!</h3>
+
+<sub>
+Building intelligent systems with Artificial Intelligence • Agentic AI • Large Language Models • Machine Learning • Computer Vision
+</sub>
+
+<br><br>
+
+<sub>
+Always learning • Always building • Always exploring the future of AI
+</sub>
 
 </div>
