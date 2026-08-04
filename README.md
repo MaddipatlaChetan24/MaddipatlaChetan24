@@ -50,7 +50,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 ### AI / Machine Learning
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn=8"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
 </p>
 
 ### AI Frameworks & Libraries
@@ -59,6 +59,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
@@ -66,6 +67,19 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 <img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
+</p>
+
+### AI Ecosystem
+
+<p align="center">
+<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt%20Engineering-9333EA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Fine--Tuning-F97316?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MLOps-059669?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Computer%20Vision-0284C7?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge"/>
 </p>
 
 ### Backend
@@ -85,7 +99,6 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 <p align="center">
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode,aws&perline=8"/>
 </p>
-
 ---
 
 
