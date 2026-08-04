@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0f2027,50:203a43,100:2c5364&text=Maddipatla%20Chetan&fontSize=54&fontColor=00F5FF&animation=fadeIn&desc=Building%20Production-Ready%20AI%20Applications&descAlignY=60&descSize=20"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12,20,23,24,30&text=Maddipatla%20Chetan&fontSize=52&fontAlignY=38&animation=fadeIn&desc=Artificial%20Intelligence%20%7C%20Generative%20AI%20%7C%20Large%20Language%20Models&descAlignY=58&descSize=18"/>
 
 </div>
 <h1 align="center">I'm Maddipatla Chetan</h1>
