@@ -50,7 +50,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 ### AI / Machine Learning
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,docker&perline=8"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn=8"/>
 </p>
 
 ### AI Frameworks & Libraries
