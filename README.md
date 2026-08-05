@@ -12,7 +12,22 @@
 
 <br>
 
-**Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.My focus: take an idea, validate it, build it, evaluate it, and ship it — bridging research and production with an engineering mindset.
+**Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.
+
+<br>
+
+
+</div>
+
+---
+
+<h2 align="center">About Me</h2>
+
+I'm **Maddipatla Chetan**, a **B.Tech Computer Science** student specializing in **Artificial Intelligence and Machine Learning**.
+
+I design and build AI systems end-to-end — **Generative AI applications, LLM-powered products, RAG pipelines, agentic workflows, and computer vision solutions** — with a foundation in **NLP, Deep Learning, and MLOps**.
+
+My focus: take an idea, validate it, build it, evaluate it, and ship it — bridging research and production with an engineering mindset.
 
 ---
 
