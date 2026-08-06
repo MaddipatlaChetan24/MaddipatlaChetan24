@@ -96,7 +96,7 @@ My goal is to bridge research and real-world applications by developing scalable
 <img src="https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge"/>
 
 </p>
- Backend
+### Backend
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=fastapi,flask&perline=4"/>
