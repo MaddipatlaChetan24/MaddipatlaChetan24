@@ -27,12 +27,11 @@
 
 <h2 align="center">About Me</h2>
 
-I'm **Maddipatla Chetan**, a **B.Tech Computer Science** student specializing in **Artificial Intelligence and Machine Learning**.
+I'm a **B.Tech Computer Science (Core)** student with a strong interest in **Artificial Intelligence, Machine Learning, and Generative AI**.
 
-I design and build AI systems end-to-end — **Generative AI applications, LLM-powered products, RAG pipelines, agentic workflows, and computer vision solutions** — with a foundation in **NLP, Deep Learning, and MLOps**.
+I enjoy building intelligent applications using **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision**, while continuously expanding my knowledge of modern AI engineering.
 
-My focus: take an idea, validate it, build it, evaluate it, and ship it — bridging research and production with an engineering mindset.
-
+My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
  
 
 <h2 align="center">What I Build</h2>
