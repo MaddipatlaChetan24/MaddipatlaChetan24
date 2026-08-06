@@ -15,7 +15,11 @@
 **Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.
 
 <br>
+<p align="center">
 
+> *"The best way to predict the future is to build it."*
+
+</p>
 
 </div>
 
@@ -72,16 +76,27 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 ### AI Ecosystem
 
 <p align="center">
+
 <img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CrewAI-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AutoGen-9333EA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DSPy-0F766E?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Prompt%20Engineering-9333EA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Tool%20Calling-0EA5E9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Function%20Calling-3B82F6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Reasoning-EC4899?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Planning-F97316?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Memory-10B981?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Evaluation-6D28D9?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Fine--Tuning-F97316?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/MLOps-059669?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Computer%20Vision-0284C7?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge"/>
-</p>
 
+</p>
 ### Backend
 
 <p align="center">
