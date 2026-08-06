@@ -23,7 +23,7 @@
 
 </div>
 
----
+ 
 
 <h2 align="center">About Me</h2>
 
@@ -33,21 +33,21 @@ I design and build AI systems end-to-end — **Generative AI applications, LLM-p
 
 My focus: take an idea, validate it, build it, evaluate it, and ship it — bridging research and production with an engineering mindset.
 
----
+ 
 
 <h2 align="center">What I Build</h2>
 
 <p align="center">
 
 | AI Applications | LLM-powered products, RAG chatbots, agentic systems |
-|---|---|
+| | |
 | Computer Vision | Real-time detection, surveillance intelligence |
 | Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
 | AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
 
 </p>
 
----
+ 
 
 <h2 align="center">Tech Stack</h2>
 
@@ -114,10 +114,10 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 <p align="center">
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode,aws&perline=8"/>
 </p>
----
+ 
 
 
----
+ 
 
 <h2 align="center">GitHub Statistics</h2>
 
@@ -134,7 +134,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 <img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&cache_seconds=1800"/>
 
 </p>
----
+ 
 
 <h2 align="center">Development Metrics</h2>
 
@@ -153,7 +153,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MaddipatlaChetan24&theme=github_dark"/>
 
 </p>
----
+ 
 
 <h2 align="center">Contribution Activity</h2>
 
@@ -163,7 +163,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 </p>
 
----
+ 
 
 <h2 align="center">Snake Contribution Animation</h2>
 
@@ -175,7 +175,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 </p>
 
----
+ 
 
 <h2 align="center">Connect With Me</h2>
 
@@ -195,7 +195,7 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 </p>
 
----
+ 
 
 <p align="center">
 
