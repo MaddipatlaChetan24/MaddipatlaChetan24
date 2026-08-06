@@ -135,24 +135,6 @@ My focus: take an idea, validate it, build it, evaluate it, and ship it — brid
 
 </p>
  
-
-<h2 align="center">Development Metrics</h2>
-
-<p align="center">
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaddipatlaChetan24&theme=github_dark"/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MaddipatlaChetan24&theme=github_dark"/>
-
-</p>
-
-<p align="center">
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MaddipatlaChetan24&theme=github_dark"/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MaddipatlaChetan24&theme=github_dark"/>
-
-</p>
  
 
 <h2 align="center">Contribution Activity</h2>
