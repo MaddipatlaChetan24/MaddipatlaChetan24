@@ -178,25 +178,6 @@ My goal is to bridge research and real-world applications by developing scalable
 
  
 
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=flat-square&color=blue" />
-
-
-</p>
-
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=280&color=0:000428,50:004e92,100:00c6ff"/>
-
-</div>
-
-<h3>Thanks for visiting my profile!</h3>
-
-<sub>
-Building intelligent systems with Artificial Intelligence • Agentic AI • Large Language Models • Machine Learning • Computer Vision
-</sub>
-
-<br><br>
 
 <sub>
 Always learning • Always building • Always exploring the future of AI
