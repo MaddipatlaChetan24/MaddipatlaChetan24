@@ -130,6 +130,32 @@ My goal is to bridge research and real-world applications by developing scalable
 
 <p align="center">
 
+<img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&cache_seconds=1800"/>
+
+</p>
+ 
+ 
+
+<h2 align="center">Contribution Activity</h2>
+
+<p align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=github-dark&hide_border=true&area=true"/>
+
+</p>
+
+ 
+
+<h2 align="center">Snake Contribution Animation</h2>
+
+<p align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
+
+<sub><i>My contribution history, animated.</i></sub>
+
+</p>
+
  
 
 <h2 align="center">Connect With Me</h2>
