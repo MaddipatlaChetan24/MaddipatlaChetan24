@@ -136,16 +136,6 @@ My goal is to bridge research and real-world applications by developing scalable
  
  
 
-<h2 align="center">Contribution Activity</h2>
-
-<p align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.cyclic.app/graph?username=MaddipatlaChetan24&theme=github-dark&hide_border=true&area=true"/>
-
-</p>
-
- 
-
 <h2 align="center">Snake Contribution Animation</h2>
 
 <p align="center">
