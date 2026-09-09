@@ -8,15 +8,6 @@
 
 
 
-
- 
-
-<h2 align="center">Tech Stack</h2>
-
-### AI / Machine Le/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CrewAI-2563EB?style=for-the-badge"/>
-
 </p>
 <h2>Backend</h2>
 
