@@ -13,20 +13,7 @@
 
 <h2 align="center">Tech Stack</h2>
 
-### AI / Machine Learning
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
-</p>
-
-##
-### AI Ecosystem
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
+### AI / Machine Le/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/CrewAI-2563EB?style=for-the-badge"/>
 
