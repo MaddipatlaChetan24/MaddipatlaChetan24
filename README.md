@@ -15,15 +15,12 @@
 **Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.
 
 <br>
+
 <p align="center">
 
 > *"The best way to predict the future is to build it."*
 
 </p>
-
-</div>
-
- 
 
 <h2 align="center">About Me</h2>
 
@@ -32,21 +29,18 @@ I'm a **B.Tech Computer Science (Core)** student with a strong interest in **Art
 I enjoy building intelligent applications using **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision**, while continuously expanding my knowledge of modern AI engineering.
 
 My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
- 
 
 <h2 align="center">What I Build</h2>
 
 <p align="center">
 
-| AI Applications | LLM-powered products, RAG chatbots, agentic systems |
-|---|---|
-| Computer Vision | Real-time detection, surveillance intelligence |
-| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
-| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
+| AI Applications   | LLM-powered products, RAG chatbots, agentic systems |
+| ----------------- | --------------------------------------------------- |
+| Computer Vision   | Real-time detection, surveillance intelligence      |
+| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA)       |
+| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment   |
 
 </p>
-
- 
 
 <h2 align="center">Tech Stack</h2>
 
@@ -96,6 +90,7 @@ My goal is to bridge research and real-world applications by developing scalable
 <img src="https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge"/>
 
 </p>
+
 <h2>Backend</h2>
 
 <p align="center">
@@ -113,10 +108,6 @@ My goal is to bridge research and real-world applications by developing scalable
 <p align="center">
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode,aws&perline=8"/>
 </p>
- 
-
-
- 
 
 <h2 align="center">GitHub Statistics</h2>
 
@@ -133,8 +124,6 @@ My goal is to bridge research and real-world applications by developing scalable
 <img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&cache_seconds=1800"/>
 
 </p>
- 
- 
 
 <h2 align="center">Snake Contribution Animation</h2>
 
@@ -145,8 +134,6 @@ My goal is to bridge research and real-world applications by developing scalable
 <sub><i>My contribution history, animated.</i></sub>
 
 </p>
-
- 
 
 <h2 align="center">Connect With Me</h2>
 
@@ -166,19 +153,15 @@ My goal is to bridge research and real-world applications by developing scalable
 
 </p>
 
- 
-
 <p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=flat-square&color=blue" />
-
+<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=flat-square&color=blue"/>
 
 </p>
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=280&color=0:000428,50:004e92,100:00c6ff"/>
 
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=280&color=0:000428,50:004e92,100:00c6ff"/>
 
 <h3>Thanks for visiting my profile!</h3>
 
