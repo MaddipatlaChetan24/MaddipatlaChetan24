@@ -11,22 +11,6 @@
 ### AI / Machine Learning
 
 
-0?style=for-the-badge"/>
-
-<p 
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=fastapi,flask&perline=4"/>
-</p>
-
-### Databases
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=5"/>
-</p>
-
-### Tools & Cloud
-
 <p align="center">
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode,aws&perline=8"/>
 </p>
