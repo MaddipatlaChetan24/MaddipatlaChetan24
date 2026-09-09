@@ -36,25 +36,7 @@ My goal is to bridge research and real-world applications by developing scalable
 
 </p>
 
- 
-
-<h2 align="center">Tech Stack</h2>
-
-### AI / Machine Learning
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
-</p>
-
-### AI Frameworks & Libraries
-
-<p align="center">
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+ ikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
