@@ -4,7 +4,7 @@
 
 <p align="center">
 
-> *"The best way to predict the future is to build it."*
+y to predict the future is to build it."*
 
 </p>
 
