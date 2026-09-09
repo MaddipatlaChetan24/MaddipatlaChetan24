@@ -13,20 +13,7 @@
 
 0?style=for-the-badge"/>
 
-<p align="center">
-
-<img src="https://img.shieldhe-badge"/>
-<img src="https://99?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Planning-F97316?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Memory-10B981?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Evaluation-6D28D9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Fine--Tuning-F97316?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MLOps-059669?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Computer%20Vision-0284C7?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge"/>
-
-</p>
-<h2>Backend</h2>
+<p 
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=fastapi,flask&perline=4"/>
