@@ -2,13 +2,7 @@
 
 
 
-<h2 align="center">What I Build</h2>
 
-<p align="center">
-e intelligence |
-
-
-</p>
 
  
 
