@@ -10,11 +10,7 @@
 
 ### AI / Machine Learning
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
-</p>
 
-### AI Frameworks & Libraries
 
 <p align="center">
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
