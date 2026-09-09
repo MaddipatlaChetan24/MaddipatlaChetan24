@@ -19,14 +19,7 @@
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
 </p>
 
-### AI Frameworks & Libraries
-
-<p -11557C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
-</p>
-
+##
 ### AI Ecosystem
 
 <p align="center">
