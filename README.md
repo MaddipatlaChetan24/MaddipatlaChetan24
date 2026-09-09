@@ -12,7 +12,16 @@
 
 <br>
 
-**Turning research into
+**Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.
+
+<br>
+<p align="center">
+
+> *"The best way to predict the future is to build it."*
+
+</p>
+
+</div>
 
  
 
