@@ -40,8 +40,8 @@ My goal is to bridge research and real-world applications by developing scalable
 
 | AI Applications | LLM-powered products, RAG chatbots, agentic systems |
  Computer Vision | Real-time detection, surveillance intelligence |
-| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
-| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
+ Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
+ AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
 
 </p>
 
