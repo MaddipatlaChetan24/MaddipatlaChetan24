@@ -19,7 +19,7 @@ I'm a **B.T
 
 <p align="center">
 
-| AI Applications | LLM-powered products, RAG chatbots, agentic systems |
+| red products, RAG chatbots, agentic systems |
 | Computer Visioe | APIs, retrieval pipelines, evaluatio
 </p>
 
