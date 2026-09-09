@@ -3,11 +3,6 @@
 
 <br>
 
-<sub><i>Artificial Intelligence • Generative AI • Agentic AI • Large Language Models • Computer Vision</i></sub>
-
-<img src="https://readme-typing-font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmen
-
-<br>
 
 **Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.
 
