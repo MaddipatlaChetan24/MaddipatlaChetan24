@@ -15,7 +15,6 @@ I'm a **B.Tech Computer Science (Core)** student with a strong interest in **Art
 
 I enjoy building intelligent applications using **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision**, while continuously expanding my knowledge of modern AI engineering.
 
-My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
  
 
 <h2 align="center">What I Build</h2>
