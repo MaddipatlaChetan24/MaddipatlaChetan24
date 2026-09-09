@@ -14,13 +14,7 @@
 I'm a **B.T
 
  
-
-<h2 align="center">What I Build</h2>
-
-<p align="center">
-
-| red products, RAG chatbots, agentic systems |
-| Computer Visioe | APIs, retrieval pipelines, evaluatio
+pipelines, evaluatio
 </p>
 
  
