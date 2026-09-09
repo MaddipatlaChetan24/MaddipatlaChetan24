@@ -4,12 +4,7 @@
 
 <p align="center">
 
-y to predict the future is to build it."*
-
-</p>
-
-</div>
-
+y to predict the
  
 
 <h2 align="center">About Me</h2>
