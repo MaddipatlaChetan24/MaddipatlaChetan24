@@ -14,7 +14,7 @@
 
 <p align="center">
 e intelligence |
-| Model Fine-Tuning | Parameter-efficdeployment |
+
 
 </p>
 
