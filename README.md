@@ -14,7 +14,6 @@
 
 <p align="center">
 
-| Aroducts, RAG chatbots, agentic systems |
 | | |
 | Computer Vision | Real-time detection, surveillance intelligence |
 | Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
