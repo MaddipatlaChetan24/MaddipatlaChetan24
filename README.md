@@ -21,9 +21,7 @@ I'm a **B.T
 
 | AI Applications | LLM-powered products, RAG chatbots, agentic systems |
 | | |
-| Computer Vision | Real-time detection, surveillance intelligence |
-| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
-| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
+| Computer Visioe | APIs, retrieval pipelines, evaluation, deployment |
 
 </p>
 
