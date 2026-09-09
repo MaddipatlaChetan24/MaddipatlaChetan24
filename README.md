@@ -12,22 +12,10 @@
 
 
 0?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
-</p>
-
-### AI Ecosystem
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CrewAI-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AutoGen-9333EA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/DSPy-0F766E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Prompt%20Engineering-9333EA?style=for-the-badge"/>
+<img src="https://img.shieldhe-badge"/>
 <img src="https://img.shields.io/badge/Tool%20Calling-0EA5E9?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Function%20Calling-3B82F6?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Reasoning-EC4899?style=for-the-badge"/>
