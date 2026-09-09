@@ -7,15 +7,7 @@
 <p align="center">
 
 
- 
 
-<h2 align="center">About Me</h2>
-
-I'm a **B.T
-
- 
-pipelines, evaluatio
-</p>
 
  
 
