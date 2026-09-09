@@ -13,7 +13,6 @@
 
 I'm a **B.Tech Computer Science (Core)** student with a strong interest in **Artificial Intelligence, Machine Learning, and Generative AI**.
 
-I enjoy building intelligent applications using **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision**, while continuously expanding my knowledge of modern AI engineering.
 
  
 
