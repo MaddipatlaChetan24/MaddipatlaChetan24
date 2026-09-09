@@ -13,8 +13,7 @@
 <h2 align="center">What I Build</h2>
 
 <p align="center">
-
-Real-time detection, surveillance intelligence |
+e intelligence |
 | Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
 | AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
 
