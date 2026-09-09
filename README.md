@@ -11,8 +11,7 @@
 
 <h2 align="center">About Me</h2>
 
-I'm a **B.Tech Computer Science (Core)** student with a strong interest in **Artificial Intelligence, Machine Learning, and Generative AI**.
-
+I'm a **B.T
 
  
 
