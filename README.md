@@ -8,8 +8,7 @@
  
 
 
-I enjoy building intelligent applications using **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision**, while continuously expanding my knowledge of modern AI engineering.
-
+I enjoy building intell
 My goal is to bridge resea
 <h2 align="center">What I Build</h2>
 
