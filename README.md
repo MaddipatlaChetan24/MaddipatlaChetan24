@@ -34,11 +34,11 @@ My goal is to bridge research and real-world applications by developing scalable
 
 <p align="center">
 
-| AI Applications   | LLM-powered products, RAG chatbots, agentic systems |
-| ----------------- | --------------------------------------------------- |
-| Computer Vision   | Real-time detection, surveillance intelligence      |
-| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA)       |
-| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment   |
+| AI Applications | LLM-powered products, RAG chatbots, agentic systems |
+|---|---|
+| Computer Vision | Real-time detection, surveillance intelligence |
+| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
+| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
 
 </p>
 
@@ -113,9 +113,9 @@ My goal is to bridge research and real-world applications by developing scalable
 
 <p align="center">
 
-<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
+<img height="190" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
 
-<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800"/>
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800"/>
 
 </p>
 
