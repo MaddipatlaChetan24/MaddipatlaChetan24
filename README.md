@@ -14,8 +14,7 @@
 
 <p align="center">
 
-| | |
-| Computer Vision | Real-time detection, surveillance intelligence |
+Real-time detection, surveillance intelligence |
 | Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
 | AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
 
