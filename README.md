@@ -14,8 +14,7 @@
 
 <p align="center">
 e intelligence |
-| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
-| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
+| Model Fine-Tuning | Parameter-efficdeployment |
 
 </p>
 
