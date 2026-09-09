@@ -16,9 +16,7 @@
 <p align="center">
 
 <img src="https://img.shieldhe-badge"/>
-<img src="https://img.shields.io/badge/Tool%20Calling-0EA5E9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Function%20Calling-3B82F6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Reasoning-EC4899?style=for-the-badge"/>
+<img src="https://99?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Planning-F97316?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Memory-10B981?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Evaluation-6D28D9?style=for-the-badge"/>
