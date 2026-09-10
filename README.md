@@ -39,9 +39,10 @@ My goal is to bridge research and real-world applications by developing scalable
 <p align="center">
 
 | AI Applications | LLM-powered products, RAG chatbots, agentic systems |
- Computer Vision | Real-time detection, surveillance intelligence |
- Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
- AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
+| | |
+| Computer Vision | Real-time detection, surveillance intelligence |
+| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
+| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
 
 </p>
 
@@ -135,6 +136,16 @@ My goal is to bridge research and real-world applications by developing scalable
  
  
 
+<h2 align="center">Contribution Activity</h2>
+
+<p align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.cyclic.app/graph?username=MaddipatlaChetan24&theme=github-dark&hide_border=true&area=true"/>
+
+</p>
+
+ 
+
 <h2 align="center">Snake Contribution Animation</h2>
 
 <p align="center">
@@ -192,4 +203,3 @@ Always learning • Always building • Always exploring the future of AI
 </sub>
 
 </div>
- the snake and the everything is not working 
