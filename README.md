@@ -6,125 +6,168 @@
 
 <sub><i>Artificial Intelligence • Generative AI • Agentic AI • Large Language Models • Computer Vision</i></sub>
 
+<br><br>
+
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmented+Generation;Agentic+AI;Multi-Agent+Systems;Deep+Learning;Building+Intelligent+AI+Applications"/>
 
 </div>
 
 <br>
 
-**Turning research into production-grade AI systems** — LLMs, RAG, agents, and deep learning built end-to-end.
-
-<br>
 <p align="center">
 
-> *"The best way to predict the future is to build it."*
+<b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep learning built end-to-end.
 
 </p>
 
-</div>
+<br>
 
- 
+<p align="center">
+
+<i>"The best way to predict the future is to build it."</i>
+
+</p>
+
+<br>
 
 <h2 align="center">About Me</h2>
 
-I'm a **B.Tech Computer Science (Core)** student with a strong interest in **Artificial Intelligence, Machine Learning, and Generative AI**.
+I'm a <b>B.Tech Computer Science (Core)</b> student with a strong interest in <b>Artificial Intelligence, Machine Learning, and Generative AI</b>.
 
-I enjoy building intelligent applications using **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision**, while continuously expanding my knowledge of modern AI engineering.
+I enjoy building intelligent applications using <b>LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision</b>, while continuously expanding my knowledge of modern AI engineering.
 
 My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
- 
+
+<br>
 
 <h2 align="center">What I Build</h2>
 
-<p align="center">
+<table align="center">
+<tr>
+<td align="center"><b>AI Applications</b></td>
+<td>LLM-powered products, RAG chatbots, agentic systems</td>
+</tr>
+<tr>
+<td align="center"><b>Computer Vision</b></td>
+<td>Real-time detection, surveillance intelligence</td>
+</tr>
+<tr>
+<td align="center"><b>Model Fine-Tuning</b></td>
+<td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
+</tr>
+<tr>
+<td align="center"><b>AI Infrastructure</b></td>
+<td>APIs, retrieval pipelines, evaluation, deployment</td>
+</tr>
+</table>
 
-| AI Applications | LLM-powered products, RAG chatbots, agentic systems |
-| | |
-| Computer Vision | Real-time detection, surveillance intelligence |
-| Model Fine-Tuning | Parameter-efficient adaptation (LoRA / QLoRA) |
-| AI Infrastructure | APIs, retrieval pipelines, evaluation, deployment |
-
-</p>
-
- 
+<br>
 
 <h2 align="center">Tech Stack</h2>
 
-### AI / Machine Learning
+<h3 align="center">AI / Machine Learning</h3>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
 </p>
 
-### AI Frameworks & Libraries
+<h3 align="center">AI Frameworks & Libraries</h3>
 
 <p align="center">
+
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+
 <img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
+
 </p>
 
-### AI Ecosystem
+<h3 align="center">AI Ecosystem</h3>
 
 <p align="center">
 
 <img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/CrewAI-2563EB?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/AutoGen-9333EA?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/DSPy-0F766E?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Prompt%20Engineering-9333EA?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Tool%20Calling-0EA5E9?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Function%20Calling-3B82F6?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Reasoning-EC4899?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Planning-F97316?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Memory-10B981?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Evaluation-6D28D9?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Fine--Tuning-F97316?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/MLOps-059669?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Computer%20Vision-0284C7?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge"/>
 
 </p>
-<h2>Backend</h2>
+
+<h3 align="center">Backend</h3>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=fastapi,flask&perline=4"/>
 </p>
 
-### Databases
+<h3 align="center">Databases</h3>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=5"/>
 </p>
 
-### Tools & Cloud
+<h3 align="center">Tools & Cloud</h3>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode,aws&perline=8"/>
 </p>
- 
 
-
- 
+<br>
 
 <h2 align="center">GitHub Statistics</h2>
 
 <p align="center">
 
-<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
+<img height="190" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
 
-<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800"/>
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800"/>
 
 </p>
 
@@ -133,18 +176,18 @@ My goal is to bridge research and real-world applications by developing scalable
 <img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&cache_seconds=1800"/>
 
 </p>
- 
- 
+
+<br>
 
 <h2 align="center">Contribution Activity</h2>
 
 <p align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.cyclic.app/graph?username=MaddipatlaChetan24&theme=github-dark&hide_border=true&area=true"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=github-dark&hide_border=true&area=true"/>
 
 </p>
 
- 
+<br>
 
 <h2 align="center">Snake Contribution Animation</h2>
 
@@ -152,11 +195,13 @@ My goal is to bridge research and real-world applications by developing scalable
 
 <img width="100%" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
 
+<br>
+
 <sub><i>My contribution history, animated.</i></sub>
 
 </p>
 
- 
+<br>
 
 <h2 align="center">Connect With Me</h2>
 
@@ -176,30 +221,32 @@ My goal is to bridge research and real-world applications by developing scalable
 
 </p>
 
- 
+<br>
 
 <p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=flat-square&color=blue" />
-
+<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=flat-square&color=blue"/>
 
 </p>
 
+<br>
+
 <div align="center">
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=280&color=0:000428,50:004e92,100:00c6ff"/>
 
 </div>
 
-<h3>Thanks for visiting my profile!</h3>
+<h3 align="center">Thanks for visiting my profile!</h3>
 
+<p align="center">
 <sub>
 Building intelligent systems with Artificial Intelligence • Agentic AI • Large Language Models • Machine Learning • Computer Vision
 </sub>
+</p>
 
-<br><br>
-
+<p align="center">
 <sub>
 Always learning • Always building • Always exploring the future of AI
 </sub>
-
-</div>
+</p>
