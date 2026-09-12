@@ -10,17 +10,6 @@
 
 
 
-<br>
-
-<h2 align="center">What I Build</h2>
-
-<table al>
-<td>APIs, retrieval pipelines, evaluation, deployment</td>
-</tr>
-</table>
-
-<br>
-
 <h2 align="center">Tech Stack</h2>
 
 <h3 align="center">AI / Machine Learning</h3>
