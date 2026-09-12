@@ -6,9 +6,6 @@
 <td align="center"><b>Model Fine-Tuning</b></td>
 <td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
 </tr>
-<tr>
-<td align="center"><b>AI Infrastructure</b></td>
-<td>APIs, retrieval pipelines, evaluation, deployment</td>
 </tr>
 </table>
 
