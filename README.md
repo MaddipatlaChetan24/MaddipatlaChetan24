@@ -10,16 +10,6 @@
 
 
 <b
-
-<br>
-
-My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
-
-<br>
-
-<h2 align="center">What I Build</h2>
-
-<table align="center">
 <tr>
 <td align="center"><b>AI Applications</b></td>
 <td>LLM-powered products, RAG chatbots, agentic systems</td>
