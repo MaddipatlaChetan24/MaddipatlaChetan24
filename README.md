@@ -9,14 +9,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmented+Generation;Agentic+AI;Multi-Agent+Systems;Deep+Learning;Building+Intelligent+AI+Applications"/>
 
 
-<b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep learning built end-to-end.
-
-</p>
-
-
-<i>"The best way to predict the future is to build it."</i>
-
-</p>
+<b
 
 <br>
 
