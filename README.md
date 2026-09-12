@@ -4,14 +4,7 @@
 <h2 align="center">Tech Stack</h2>
 
 <h3 align="center">AI / Machine Learning</h3>
-
-<img src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+50458?style=for-the-badge&logo=pandas&logoColor=white"/>
 
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
 
