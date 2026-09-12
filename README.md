@@ -4,7 +4,7 @@
 
 <br>
 
-<sub><i>Artificial Intelligence • Generative AI • Agentic AI • Large Language Models • Computer Vision</i></sub>
+<sub><i>Artificial Intelligence • Generative AI • Agentic AI • Large Language Models • Computer 
 
 <br><br>
 
