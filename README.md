@@ -8,11 +8,6 @@
 <p align="center">
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
 </p>
-
-<h3 align="center">AI Frameworks & Libraries</h3>
-
-<p align="center">
-
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
