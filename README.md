@@ -1,13 +1,3 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:000428,50:004e92,100:00c6ff&text=Maddipatla%20Chetan&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Generative%20AI%20%7C%20Agentic%20AI%20%7C%20LLMs&descAlignY=60"/>
-
-<br>
-
-
-
-
-
 
 
 <h2 align="center">Tech Stack</h2>
