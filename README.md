@@ -11,10 +11,6 @@
 
 <br>
 
-<p align="center">p learning built end-to-end.
-
-</p>
-
 <br>
 
 <p align="center">
