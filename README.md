@@ -3,11 +3,6 @@
 
 <h2 align="center">Tech Stack</h2>
 
-<h3 align="center">AI / Machine Learning</h3>
-50458?style=for-the-badge&logo=pandas&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
-
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
