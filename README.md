@@ -3,11 +3,6 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:000428,50:004e92,100:00c6ff&text=Maddipatla%20Chetan&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Generative%20AI%20%7C%20Agentic%20AI%20%7C%20LLMs&descAligAI Applications</b></td>
 <td>LLM-powered products, RAG chatbots, agentic systems</td>
 </tr>
-<tr>
-<td align="center"><b>Computer Vision</b></td>
-<td>Real-time detection, surveillance intelligence</td>
-</tr>
-<tr>
 <td align="center"><b>Model Fine-Tuning</b></td>
 <td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
 </tr>
