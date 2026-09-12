@@ -1,4 +1,67 @@
+<div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:000428,50:004e92,100:00c6ff&text=Maddipatla%20Chetan&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Generative%20AI%20%7C%20Agentic%20AI%20%7C%20LLMs&descAlignY=60"/>
+
+<br>
+
+<sub><i>Artificial Intelligence • Generative AI • Agentic AI • Large Language Models • Computer Vision</i></sub>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmented+Generation;Agentic+AI;Multi-Agent+Systems;Deep+Learning;Building+Intelligent+AI+Applications"/>
+
+</div>
+
+<br>
+
+<p align="center">
+
+<b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep learning built end-to-end.
+
+</p>
+
+<br>
+
+<p align="center">
+
+<i>"The best way to predict the future is to build it."</i>
+
+</p>
+
+<br>
+
+<h2 align="center">About Me</h2>
+
+I'm a <b>B.Tech Computer Science (Core)</b> student with a strong interest in <b>Artificial Intelligence, Machine Learning, and Generative AI</b>.
+
+I enjoy building intelligent applications using <b>LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision</b>, while continuously expanding my knowledge of modern AI engineering.
+
+My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
+
+<br>
+
+<h2 align="center">What I Build</h2>
+
+<table align="center">
+<tr>
+<td align="center"><b>AI Applications</b></td>
+<td>LLM-powered products, RAG chatbots, agentic systems</td>
+</tr>
+<tr>
+<td align="center"><b>Computer Vision</b></td>
+<td>Real-time detection, surveillance intelligence</td>
+</tr>
+<tr>
+<td align="center"><b>Model Fine-Tuning</b></td>
+<td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
+</tr>
+<tr>
+<td align="center"><b>AI Infrastructure</b></td>
+<td>APIs, retrieval pipelines, evaluation, deployment</td>
+</tr>
+</table>
+
+<br>
 
 <h2 align="center">Tech Stack</h2>
 
