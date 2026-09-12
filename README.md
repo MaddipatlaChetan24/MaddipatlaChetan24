@@ -6,13 +6,7 @@
 
 
 
-<br><br>
-
-
-<br>
-
-
-<br>
+>
 
 <h2 align="center">About Me</h2>
 
