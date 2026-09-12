@@ -1,11 +1,3 @@
-pplications</b></td>
-<td>LLM-powered products, RAG chatbots, agentic systems</td>
-</tr>
-<td align="center"><b>Model Fine-Tuning</b></td>
-<td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
-</tr>
-</tr>
-</table>
 
 <br>
 
