@@ -13,12 +13,6 @@
 
 <br>
 
-<h2 align="center">About Me</h2>
-
-I'm a <b>B.Tech Computer Science (Core)</b> student with a strong interest in <b>Artificial Intelligence, Machine Learning, and Generative AI</b>.
-
-I enjoy building intelligent applications using <b>LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision</b>, while continuously expanding my knowledge of modern AI engineering.
-
 My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
 
 <br>
