@@ -14,10 +14,7 @@
 </tr>
 <tr>
 <td align="center"><b>Computer Vision</b></td>
-<td>Real-time detection, surveillance intelligence</td>
-</tr>
-<tr>
-<td 
+
 
 <h2 align="center">Tech Stack</h2>
 
