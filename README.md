@@ -8,7 +8,7 @@
 
 <p align="center">
 
-<b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep learning built end-to-end.
+<b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep 
 
 
 <p align="center">t the future is to build it."</i>
