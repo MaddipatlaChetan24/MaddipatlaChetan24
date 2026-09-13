@@ -20,15 +20,6 @@
 
 <img src="https://img.shields.io/badge/AutoGen-9333EA?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/DSPy-0F766E?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Prompt%20Engineering-9333EA?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Tool%20Calling-0EA5E9?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Function%20Calling-3B82F6?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Reasoning-EC4899?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Planning-F97316?style=for-the-badge"/>
 
