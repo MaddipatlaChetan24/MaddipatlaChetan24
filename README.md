@@ -13,12 +13,7 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/LangChain-1C3?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+991?style=for-the-badge&logo=openai&logoColor=white"/>
 
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 
