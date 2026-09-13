@@ -9,9 +9,7 @@
 
 <table align="center">
 <tr>
-<td align="center"><b>AI Applications</b></td>
-<td>LLM-powered products, RAG chatbots, agentic systems</td>
-</tr>
+
 
 <h2 align="center">Tech Stack</h2>
 
