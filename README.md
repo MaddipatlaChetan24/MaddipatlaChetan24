@@ -8,8 +8,6 @@
 
 
 
-<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
-
 <img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
