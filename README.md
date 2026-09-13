@@ -8,7 +8,7 @@
 
 <p align="center">
 
-<b>Turning research into production-grade AI systems</b> 
+
 
 
 
