@@ -21,11 +21,7 @@
 <td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
 </tr>
 <tr>
-<td align="center"><b>AI Infrastructure</b></td>
-<td>APIs, retrieval pipelines, evaluation, deployment</td>
-</tr>
-</table>
-
+<td align="center"><b>A
 <br>
 
 <h2 align="center">Tech Stack</h2>
