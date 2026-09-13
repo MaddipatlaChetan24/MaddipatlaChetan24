@@ -21,8 +21,6 @@
 <td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
 </tr>
 <tr>
-<td align="center"><b>A
-<br>
 
 <h2 align="center">Tech Stack</h2>
 
