@@ -9,11 +9,7 @@
 <h2 align="center">Tech Stack</h2>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
-</p>
-
-<h3 align="center">AI Frameworks & Libraries</h3>
-
+<img src="
 <p align="center">
 
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
