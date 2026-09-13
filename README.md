@@ -13,8 +13,6 @@
 
 <h2 align="center">Tech Stack</h2>
 
-<h3 align="center">AI / Machine Learning</h3>
-
 <p align="center">
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
 </p>
