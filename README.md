@@ -18,9 +18,7 @@
 </tr>
 <tr>
 <td align="center"><b>Model Fine-Tuning</b></td>
-<td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
-</tr>
-<tr>
+<td>
 
 <h2 align="center">Tech Stack</h2>
 
