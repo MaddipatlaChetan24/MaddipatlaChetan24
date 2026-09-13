@@ -8,7 +8,7 @@
 
 <p align="center">
 
-<b>Turning research into production-grade AI systems</b> — LLMdeep 
+<b>Turning research into production-grade AI systems</b> 
 
 
 <p align="center">t the future is to build it."</i>
