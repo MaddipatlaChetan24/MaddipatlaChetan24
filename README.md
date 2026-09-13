@@ -14,9 +14,7 @@
 
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangChain-1C3?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
 
