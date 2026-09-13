@@ -5,11 +5,6 @@
 
 
 
-<h2 align="center">What I Build</h2>
-
-<table align="center">
-<tr>
-
 
 <h2 align="center">Tech Stack</h2>
 
