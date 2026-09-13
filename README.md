@@ -8,21 +8,6 @@
 
 
 
-<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/CrewAI-2563EB?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/AutoGen-9333EA?style=for-the-badge"/>
-
-
-<img src="https://img.shields.io/badge/Planning-F97316?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Memory-10B981?style=for-the-badge"/>
-
 <img src="https://img.shields.io/badge/Evaluation-6D28D9?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Fine--Tuning-F97316?style=for-the-badge"/>
