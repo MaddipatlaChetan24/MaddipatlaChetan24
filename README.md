@@ -1,11 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:000428,50:004e92,100:00c6ff&text=Maddipatla%20Chetan&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Generative%20AI%20%7C%20Agentic%20AI%20%7C%20LLMs&descAlignY=60"/>
-
-
-
-
-<img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:000428,50:004e92,100:00c6ff&text=Maddipatla%20Chetan&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Generative%20AI%20%7C%20Agentic%20AI%20%7C%20LLMs&descAlignY=60
 
 </p>
 
