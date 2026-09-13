@@ -9,8 +9,6 @@
 <h2 align="center">Tech Stack</h2>
 
 
-<p align="center">
-
 
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 
