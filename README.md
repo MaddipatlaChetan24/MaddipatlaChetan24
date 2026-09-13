@@ -8,7 +8,7 @@
 
 <h2 align="center">Tech Stack</h2>
 
-<p align="center">
+
 <img src="
 <p align="center">
 
