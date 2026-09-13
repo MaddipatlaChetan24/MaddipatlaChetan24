@@ -6,7 +6,7 @@
 
 <h3 align="center">AI Ecosystem</h3>
 
-<p align="center">
+
 
 <img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
 
