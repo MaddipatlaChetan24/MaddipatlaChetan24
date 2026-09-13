@@ -10,9 +10,6 @@
 
 <b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep learning built end-to-end.
 
-</p>
-
-<br>
 
 <p align="center">
 
