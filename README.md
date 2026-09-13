@@ -165,25 +165,15 @@ My goal is to bridge research and real-world applications by developing scalable
 
 <p align="center">
 
-<img height="190" src="https://github-readme-stats.vercel.app/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
+<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
 
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800"/>
+<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800"/>
 
 </p>
 
 <p align="center">
 
 <img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&cache_seconds=1800"/>
-
-</p>
-
-<br>
-
-<h2 align="center">Contribution Activity</h2>
-
-<p align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=github-dark&hide_border=true&area=true"/>
 
 </p>
 
