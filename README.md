@@ -5,8 +5,6 @@
 
 
 
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-
 <img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
 
 </p>
