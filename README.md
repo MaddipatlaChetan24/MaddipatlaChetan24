@@ -11,7 +11,7 @@
 
 
 
-<b>Turning research into production-grade AI systems
+<b>Turning researcade AI systems
 <br>
 
 <p align="center">
