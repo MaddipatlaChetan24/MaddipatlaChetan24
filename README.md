@@ -11,8 +11,7 @@ tems
 <br>
 
 <p align="center">
-
-<i>"The best way to predict the future is to build it."</i>
+uild it."</i>
 
 </p>
 
