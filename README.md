@@ -7,11 +7,7 @@
 
 
 
-<br>
-
-
-
-<b>Turning researcade AI systems
+tems
 <br>
 
 <p align="center">
