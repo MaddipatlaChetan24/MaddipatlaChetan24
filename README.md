@@ -135,23 +135,21 @@ My goal is to bridge research and real-world applications by developing scalable
 
 <p align="center">
 
-<img height="190" alt="GitHub stats" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
+<img height="190" alt="GitHub stats" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=1800"/>
 <img height="190" alt="Top languages" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&count_private=true&cache_seconds=1800"/>
 
 </p>
 
 <p align="center">
-<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&cache_seconds=1800"/>
+<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&count_private=true&cache_seconds=1800"/>
 </p>
 
 <br>
 
-<h2 align="center">Snake Contribution Animation</h2>
+<h2 align="center">Contribution Activity</h2>
 
 <p align="center">
-<img width="100%" alt="Contribution snake animation" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
-<br>
-<sub><i>My contribution history, animated.</i></sub>
+<img width="100%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&theme=react-dark&hide_border=true&custom_title=Contribution%20Graph"/>
 </p>
 
 <br>
