@@ -1,242 +1,102 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:000428,50:004e92,100:00c6ff&text=Maddipatla%20Chetan&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Generative%20AI%20%7C%20Agentic%20AI%20%7C%20LLMs&descAlignY=60"/>
+```
+$ whoami
+maddipatla-chetan.exe — B.Tech CSE @ Amrita Vishwa Vidyapeetham
 
-<br>
-
-<sub><i>Artificial Intelligence • Generative AI • Agentic AI • Large Language Models • Computer Vision</i></sub>
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmented+Generation;Agentic+AI;Multi-Agent+Systems;Deep+Learning;Building+Intelligent+AI+Applications"/>
+$ cat mission.txt
+"Bridging AI research and production systems —
+ LLMs, RAG, multi-agent architectures, and deep learning."
+```
 
 </div>
 
 <br>
 
-<p align="center">
-
-<b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep learning built end-to-end.
-
-</p>
-
-<br>
-
-<p align="center">
-
-<i>"The best way to predict the future is to build it."</i>
-
-</p>
-
-<br>
-
-<h2 align="center">About Me</h2>
-
-I'm a <b>B.Tech Computer Science (Core)</b> student with a strong interest in <b>Artificial Intelligence, Machine Learning, and Generative AI</b>.
-
-I enjoy building intelligent applications using <b>LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and Computer Vision</b>, while continuously expanding my knowledge of modern AI engineering.
-
-My goal is to bridge research and real-world applications by developing scalable, production-ready AI systems.
-
-<br>
-
-<h2 align="center">What I Build</h2>
-
 <table align="center">
 <tr>
-<td align="center"><b>AI Applications</b></td>
-<td>LLM-powered products, RAG chatbots, agentic systems</td>
-</tr>
-<tr>
-<td align="center"><b>Computer Vision</b></td>
-<td>Real-time detection, surveillance intelligence</td>
-</tr>
-<tr>
-<td align="center"><b>Model Fine-Tuning</b></td>
-<td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
-</tr>
-<tr>
-<td align="center"><b>AI Infrastructure</b></td>
-<td>APIs, retrieval pipelines, evaluation, deployment</td>
+<td valign="top" width="50%">
+
+### `~/focus`
+
+```yaml
+domain:      Generative AI, Agentic Systems, LLMs
+research:    Climate forecasting w/ TU Denmark
+publication: IEEE ICESIC 2026 (first author)
+targets:     GenAI/LLM Engineer · Applied ML Research
+gpa:         8.4
+```
+
+</td>
+<td valign="top" width="50%">
+
+### `~/currently`
+
+```yaml
+- Revising a spatio-temporal GAT paper
+  for journal submission
+- Running ablations on a fish-species
+  classifier (DINOv2 + GATv2)
+- Formatting a multi-agent prompt
+  optimization paper for IEEE Access
+```
+
+</td>
 </tr>
 </table>
 
 <br>
 
-<h2 align="center">Tech Stack</h2>
+### `~/projects --list`
 
-<h3 align="center">AI / Machine Learning</h3>
+| Project | Description |
+|---|---|
+| **Nova** | Multi-agent orchestration system built on LangGraph |
+| **AI Meeting Assistant** | Deployed on AWS EC2 + FastAPI for real-time meeting intelligence |
+| **Falcon-7B Fine-Tune** | Parameter-efficient adaptation via QLoRA |
+| **LSTM Next-Word Predictor** | Rebuilt UI from Streamlit → Flask + vanilla JS |
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=6"/>
-</p>
+<br>
 
-<h3 align="center">AI Frameworks & Libraries</h3>
+### `~/research --list`
 
-<p align="center">
+```
+[IEEE ICESIC 2026]  First-author conference publication
+[NASA/NSS ISDC 2018] Invited presentation
+[AETHER]             GAT + Transformer climate anomaly forecasting,
+                      benchmarked against STGCN — in collaboration
+                      with the Technical University of Denmark
+```
 
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<br>
 
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
+### `~/upstream --contributions`
 
-<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
+```
+tensorflow/tensorflow   → merged PRs (upstream, not a fork)
+keras-team/keras        → code quality / readability fixes
+scikit-learn/scikit-learn → documentation & readability fixes
+```
+> Non-functional diffs only — readability and docs, never behavior changes.
 
-<img src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
+<br>
 
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/Vector%20Databases-336791?style=for-the-badge"/>
-
-</p>
-
-<h3 align="center">AI Ecosystem</h3>
+### `~/stack`
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/CrewAI-2563EB?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/AutoGen-9333EA?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/DSPy-0F766E?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Prompt%20Engineering-9333EA?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Tool%20Calling-0EA5E9?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Function%20Calling-3B82F6?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Reasoning-EC4899?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Planning-F97316?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Memory-10B981?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Evaluation-6D28D9?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Fine--Tuning-F97316?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/MLOps-059669?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Computer%20Vision-0284C7?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge"/>
-
-</p>
-
-<h3 align="center">Backend</h3>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=fastapi,flask&perline=4"/>
-</p>
-
-<h3 align="center">Databases</h3>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=5"/>
-</p>
-
-<h3 align="center">Tools & Cloud</h3>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,vscode,aws&perline=8"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,fastapi,flask,postgres,mongodb,docker,git,github,linux,aws,vscode&perline=8"/>
 </p>
 
 <br>
 
-<h2 align="center">GitHub Statistics</h2>
+### `~/connect`
 
-<p align="center">
-
-<img height="190" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
-
-<img height="190" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=github_dark&hide_border=true&cache_seconds=1800"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=MaddipatlaChetan24&theme=github-dark&hide_border=true&cache_seconds=1800"/>
-
-</p>
-
-<br>
-
-<h2 align="center">Snake Contribution Animation</h2>
-
-<p align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
-
-<br>
-
-<sub><i>My contribution history, animated.</i></sub>
-
-</p>
-
-<br>
-
-<h2 align="center">Connect With Me</h2>
-
-<p align="center">
-
-<a href="mailto:chetan121318@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/MaddipatlaChetan24">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/maddipatla-chetan/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</p>
-
-<br>
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&style=flat-square&color=blue"/>
-
-</p>
-
-<br>
+```
+mail    → chetan121318@gmail.com
+github  → github.com/MaddipatlaChetan24
+linkedin→ linkedin.com/in/maddipatla-chetan
+```
 
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=280&color=0:000428,50:004e92,100:00c6ff"/>
-
+<sub>compiling knowledge, deploying systems, repeat.</sub>
 </div>
-
-<h3 align="center">Thanks for visiting my profile!</h3>
-
-<p align="center">
-<sub>
-Building intelligent systems with Artificial Intelligence • Agentic AI • Large Language Models • Machine Learning • Computer Vision
-</sub>
-</p>
-
-<p align="center">
-<sub>
-Always learning • Always building • Always exploring the future of AI
-</sub>
-</p>
