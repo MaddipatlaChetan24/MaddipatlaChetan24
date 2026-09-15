@@ -1,45 +1,35 @@
 <div align="center">
 
-```
-$ whoami
-maddipatla-chetan.exe — B.Tech CSE @ Amrita Vishwa Vidyapeetham
+# Maddipatla Chetan
 
-$ cat mission.txt
-"Bridging AI research and production systems —
- LLMs, RAG, multi-agent architectures, and deep learning."
-```
+**AI Engineer in the making** — Generative AI · Agentic Systems · LLMs · Applied Research
+
+[![Email](https://img.shields.io/badge/-chetan121318%40gmail.com-000000?style=flat-square&logo=gmail&logoColor=white)](mailto:chetan121318@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maddipatla-chetan/)
+[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/MaddipatlaChetan24)
 
 </div>
 
 <br>
 
-<table align="center">
+<table width="100%">
 <tr>
-<td valign="top" width="50%">
+<td width="33%" valign="top">
 
-### `~/focus`
-
-```yaml
-domain:      Generative AI, Agentic Systems, LLMs
-research:    Climate forecasting w/ TU Denmark
-publication: IEEE ICESIC 2026 (first author)
-targets:     GenAI/LLM Engineer · Applied ML Research
-gpa:         8.4
-```
+### 🎓 Background
+B.Tech CSE, Amrita Vishwa Vidyapeetham — 3rd year, CGPA 8.4. Working across research publishing, ML engineering, and coursework, aimed at GenAI/LLM Engineer and Applied ML Research Intern roles.
 
 </td>
-<td valign="top" width="50%">
+<td width="33%" valign="top">
 
-### `~/currently`
+### 🌍 Research
+Collaborating with the **Technical University of Denmark** on climate anomaly forecasting — hierarchical spatio-temporal graph attention networks with teleconnection modelling, benchmarked against STGCN.
 
-```yaml
-- Revising a spatio-temporal GAT paper
-  for journal submission
-- Running ablations on a fish-species
-  classifier (DINOv2 + GATv2)
-- Formatting a multi-agent prompt
-  optimization paper for IEEE Access
-```
+</td>
+<td width="33%" valign="top">
+
+### 📄 Published
+First-author paper at **IEEE ICESIC 2026**. Prior invited presentation at **ISDC 2018** (NASA/NSS).
 
 </td>
 </tr>
@@ -47,56 +37,82 @@ gpa:         8.4
 
 <br>
 
-### `~/projects --list`
+## In Progress
 
-| Project | Description |
+<table width="100%">
+<tr><th align="left">Project</th><th align="left">Status</th></tr>
+<tr><td><b>AETHER</b> — climate anomaly forecasting paper</td><td>Peer-review revisions, journal targeting (AIES / EMS / IEEE TGRS)</td></tr>
+<tr><td><b>Fish Species Classifier</b> — DINOv2 + BiFPN + GATv2</td><td>Architecture complete; ablation study pending training runs</td></tr>
+<tr><td><b>MAPOF</b> — multi-agent prompt optimization framework</td><td>Formatting for IEEE Access submission</td></tr>
+<tr><td><b>PinnAIFE</b> — geological intelligence SaaS dashboard</td><td>Iterative design revision</td></tr>
+</table>
+
+<br>
+
+## Built & Shipped
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+**🧠 Nova**
+Multi-agent orchestration system built with LangGraph, designed for coordinated task-solving across specialized agents.
+
+**🎙️ AI Meeting Assistant**
+Deployed on AWS EC2 with a FastAPI backend for real-time meeting intelligence.
+
+</td>
+<td width="50%" valign="top">
+
+**⚙️ Falcon-7B Fine-Tune**
+Parameter-efficient adaptation via QLoRA for downstream task specialization.
+
+**✍️ LSTM Next-Word Predictor**
+Rebuilt end-to-end — migrated the UI from Streamlit to Flask with vanilla HTML/CSS/JS.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Open Source
+
+| Repository | Contribution |
 |---|---|
-| **Nova** | Multi-agent orchestration system built on LangGraph |
-| **AI Meeting Assistant** | Deployed on AWS EC2 + FastAPI for real-time meeting intelligence |
-| **Falcon-7B Fine-Tune** | Parameter-efficient adaptation via QLoRA |
-| **LSTM Next-Word Predictor** | Rebuilt UI from Streamlit → Flask + vanilla JS |
+| `tensorflow/tensorflow` | Merged pull requests (upstream) |
+| `keras-team/keras` | Code quality / readability improvements |
+| `scikit-learn/scikit-learn` | Documentation & readability improvements |
+
+*Contribution philosophy: non-functional diffs — readability and documentation, never behavior changes.*
 
 <br>
 
-### `~/research --list`
-
-```
-[IEEE ICESIC 2026]  First-author conference publication
-[NASA/NSS ISDC 2018] Invited presentation
-[AETHER]             GAT + Transformer climate anomaly forecasting,
-                      benchmarked against STGCN — in collaboration
-                      with the Technical University of Denmark
-```
-
-<br>
-
-### `~/upstream --contributions`
-
-```
-tensorflow/tensorflow   → merged PRs (upstream, not a fork)
-keras-team/keras        → code quality / readability fixes
-scikit-learn/scikit-learn → documentation & readability fixes
-```
-> Non-functional diffs only — readability and docs, never behavior changes.
-
-<br>
-
-### `~/stack`
+## Toolbox
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,fastapi,flask,postgres,mongodb,docker,git,github,linux,aws,vscode&perline=8"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,fastapi,flask,postgres,mongodb,mysql,docker,kubernetes,git,github,linux,aws,vscode&perline=8"/>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/RAG-0F766E?style=flat-square"/>
+<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/LangGraph-4B0082?style=flat-square"/>
+<img src="https://img.shields.io/badge/Multi--Agent%20Systems-DC2626?style=flat-square"/>
+<img src="https://img.shields.io/badge/Fine--Tuning-F97316?style=flat-square"/>
+<img src="https://img.shields.io/badge/Computer%20Vision-0284C7?style=flat-square"/>
+<img src="https://img.shields.io/badge/NLP-7C3AED?style=flat-square"/>
 </p>
 
 <br>
 
-### `~/connect`
-
-```
-mail    → chetan121318@gmail.com
-github  → github.com/MaddipatlaChetan24
-linkedin→ linkedin.com/in/maddipatla-chetan
-```
-
 <div align="center">
-<sub>compiling knowledge, deploying systems, repeat.</sub>
+
+## GitHub Activity
+
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<sub>Building intelligent systems, one commit at a time.</sub>
+
 </div>
