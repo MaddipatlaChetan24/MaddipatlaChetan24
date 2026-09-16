@@ -17,7 +17,7 @@
 
 
 <p align="center">
-<i>"The best way to predict the future is to build it."</i>
+
 </p>
 
 <br>
