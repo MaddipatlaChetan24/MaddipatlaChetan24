@@ -18,23 +18,7 @@
 
 <table align="center">
 <tr>
-<td align="center"><b>AI Applications</b></td>
-<td>LLM-powered products, RAG chatbots, agentic systems</td>
-</tr>
-<tr>
-<td align="center"><b>Computer Vision</b></td>
-<td>Real-time detection, surveillance intelligence</td>
-</tr>
-<tr>
-<td align="center"><b>Model Fine-Tuning</b></td>
-<td>Parameter-efficient adaptation (LoRA / QLoRA)</td>
-</tr>
-<tr>
-<td align="center"><b>AI Infrastructure</b></td>
-<td>APIs, retrieval pipelines, evaluation, deployment</td>
-</tr>
-</table>
-
+  
 <br>
 
 <h2 align="center">Tech Stack</h2>
