@@ -141,9 +141,7 @@ My goal is to bridge research and real-world applications by developing scalable
 </p>
 
 <p align="center">
-[![GitHub Streak](https://streak-stats.demolab.com/?user=sanjitrao16&theme=dark)](https://git.io/streak-stats) <br>
-![MaddipatlaChetan24's Stats](https://github-readme-stats.vercel.app/api?username=sanjitrao16&theme=react&show_icons=true&hide_border=true&count_private=true) <br>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sanjitrao16&layout=compact)
+
 
 <br>
 
