@@ -13,15 +13,6 @@
 </div>
 
 <br>
-
-<p align="center">
-<b>Turning research into production-grade AI systems</b> — LLMs, RAG, agents, and deep learning built 
-</p>
-
-<br>
-
-<p align="center">
-<i>"The best way to predict the future is to build it."</i>
 </p>
 
 <br>
