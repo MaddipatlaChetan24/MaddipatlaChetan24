@@ -11,14 +11,6 @@
 <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineering;Generative+AI;Large+Language+Models;Retrieval-Augmented+Generation;Agentic+AI;Multi-Agent+Systems;Deep+Learning;Building+Intelligent+AI+Applications"/>
 
 </div>
-
-<br>
-</p>
-
-<br>
-
-<h2 align="center">About Me</h2>
-
 <p align="center">
 I'm a <b>B.Tech Computer Science (Core)</b> student with a strong interest in <b>Artificial Intelligence, Machine Learning, and Generative AI</b>.
 <br><br>
