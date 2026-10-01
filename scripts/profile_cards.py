@@ -677,11 +677,242 @@ def fetch_public_data():
             "repos": repos}
 
 
+# ---------------------------------------------------------------- featured projects
+
+def wrap(text, width):
+    words, lines, cur = text.split(), [], ""
+    for w in words:
+        if len(cur) + len(w) + 1 > width:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = (cur + " " + w).strip()
+    return lines + [cur] if cur else lines
+
+
+def proj_anim(kind, x, y, w, h):
+    """Small animated illustration for each project card (area w x h at x, y)."""
+    cx, cy = x + w / 2, y + h / 2
+    g = [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="#070b14" stroke="#1e293b"/>']
+    if kind == "guardian":
+        g.append(f'<path d="M{x+20} {y+h-20}l60-44 40 28 56-58 70 52 60-30 {w-326} 52z" fill="#13213b"/>')
+        g.append(f'<rect class="pa-box1" x="{x+64}" y="{y+44}" width="54" height="66" rx="3" fill="none" stroke="{GREEN}" stroke-width="2"/>'
+                 f'<text class="pa-box1 mono" x="{x+64}" y="{y+40}" font-size="10" fill="{GREEN}">person 0.96</text>'
+                 f'<rect class="pa-box2" x="{x+186}" y="{y+58}" width="70" height="50" rx="3" fill="none" stroke="#ef4444" stroke-width="2"/>'
+                 f'<text class="pa-box2 mono" x="{x+186}" y="{y+54}" font-size="10" fill="#ef4444">loitering · 0.88</text>'
+                 f'<rect class="pa-scan" x="{x}" y="{y}" width="{w}" height="2" fill="{CYAN}" opacity=".8"/>'
+                 f'<circle class="pulse" cx="{x+16}" cy="{y+14}" r="4" fill="#ef4444"/><text x="{x+26}" y="{y+18}" class="mono" font-size="10" fill="{MUTED}">CAM-04 · LIVE</text>'
+                 f'<text x="{x+w-112}" y="{y+18}" class="mono" font-size="10" fill="{MUTED}">THREAT</text>'
+                 f'<rect x="{x+w-66}" y="{y+10}" width="52" height="8" rx="4" fill="#1e293b"/>'
+                 f'<rect class="pa-threat" x="{x+w-66}" y="{y+10}" width="20" height="8" rx="4" fill="{AMBER}"/>')
+    elif kind == "sentinel":
+        for i, (lw, col) in enumerate([(120, CYAN), (180, MUTED), (90, VIOLET), (150, MUTED), (200, MUTED), (110, PINK)]):
+            g.append(f'<text x="{x+14}" y="{y+24+i*16}" class="mono" font-size="10" fill="{DIM}">{i+1:02d}</text>'
+                     f'<rect x="{x+36}" y="{y+17+i*16}" width="{lw}" height="6" rx="3" fill="{col}" opacity=".55"/>')
+        g.append(f'<rect class="pa-flag" x="{x+30}" y="{y+76}" width="{w-130}" height="14" rx="3" fill="#ef4444" opacity=".25"/>'
+                 f'<text class="pa-flag mono" x="{x+w-150}" y="{y+87}" font-size="9.5" fill="#fca5a5">bare except</text>'
+                 f'<rect class="pa-scan2" x="{x+30}" y="{y+12}" width="{w-130}" height="2" fill="{CYAN}"/>')
+        gx, gy = x + w - 46, y + h / 2
+        g.append(f'<circle cx="{gx}" cy="{gy}" r="26" fill="none" stroke="#1e293b" stroke-width="6"/>'
+                 f'<circle class="pa-gauge" cx="{gx}" cy="{gy}" r="26" fill="none" stroke="{GREEN}" stroke-width="6" stroke-linecap="round" stroke-dasharray="163" stroke-dashoffset="40" transform="rotate(-90 {gx} {gy})"/>'
+                 f'<text x="{gx}" y="{gy+5}" text-anchor="middle" font-size="10" font-weight="700" class="mono" fill="{TEXT}">score</text>')
+    elif kind == "coach":
+        names = [("budget", CYAN), ("savings", GREEN), ("debt", PINK), ("goals", AMBER)]
+        step = (w - 60) / 3
+        for i, (n, col) in enumerate(names):
+            nx = x + 30 + i * step
+            if i:
+                g.append(f'<line class="flow" x1="{nx-step+20}" y1="{y+40}" x2="{nx-20}" y2="{y+40}" stroke="{col}" stroke-width="2"/>')
+            g.append(f'<circle class="pa-agent" style="animation-delay:{i*.6}s" cx="{nx}" cy="{y+40}" r="17" fill="{col}" fill-opacity=".15" stroke="{col}" stroke-width="2"/>'
+                     f'<text x="{nx}" y="{y+44}" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="{col}">A{i+1}</text>'
+                     f'<text x="{nx}" y="{y+72}" text-anchor="middle" class="mono" font-size="9.5" fill="{MUTED}">{n}</text>')
+        for i, bh in enumerate([22, 34, 18, 40, 28, 46, 36]):
+            g.append(f'<rect class="pa-bar" style="animation-delay:{i*.15:.2f}s" x="{x+30+i*((w-60)/7):.1f}" y="{y+h-12-bh}" width="{(w-60)/7-8:.1f}" height="{bh}" rx="2" fill="url(#brand)" opacity=".75"/>')
+    elif kind == "meeting":
+        n = 28
+        for i in range(n):
+            bh = 8 + (i * 37 % 26)
+            g.append(f'<rect class="pa-wave" style="animation-delay:{(i%7)*.12:.2f}s" x="{x+16+i*6.2:.1f}" y="{cy-bh/2-12:.1f}" width="3.6" height="{bh}" rx="1.8" fill="{VIOLET}"/>')
+        g.append(f'<path class="flow" d="M{x+196} {cy-12}H{x+224}" stroke="{CYAN}" stroke-width="2"/>')
+        for i, (lbl, col) in enumerate([("summary", CYAN), ("action items", GREEN), ("decisions", AMBER), ("Q&amp;A (RAG)", PINK)]):
+            g.append(f'<g class="pa-note" style="animation-delay:{i*.5}s"><rect x="{x+232}" y="{y+14+i*24}" width="{w-248}" height="18" rx="5" fill="{col}" fill-opacity=".14"/>'
+                     f'<text x="{x+240}" y="{y+27+i*24}" class="mono" font-size="10" fill="{col}">{lbl}</text></g>')
+    elif kind == "nova":
+        stages = [("search", CYAN), ("read", BLUE), ("write", VIOLET), ("critic", PINK)]
+        step = (w - 70) / 3
+        pts = []
+        for i, (n, col) in enumerate(stages):
+            nx, ny = x + 35 + i * step, y + (34 if i % 2 == 0 else 74)
+            pts.append((nx, ny))
+            g.append(f'<rect x="{nx-30}" y="{ny-13}" width="60" height="26" rx="13" fill="#0d1117" stroke="{col}"/>'
+                     f'<text x="{nx}" y="{ny+4}" text-anchor="middle" class="mono" font-size="10" fill="{col}">{n}</text>')
+        path = "M" + " L".join(f"{px:.1f} {py}" for px, py in pts)
+        g.insert(1, f'<path id="novapath" d="{path}" fill="none" stroke="#1e3a5f" stroke-width="2" stroke-dasharray="4 5"/>')
+        g.append(f'<circle r="5" fill="{AMBER}"><animateMotion dur="3.2s" repeatCount="indefinite" path="{path}"/></circle>')
+        g.append(f'<text x="{x+w-14}" y="{y+h-10}" text-anchor="end" class="mono" font-size="10" fill="{GREEN}">cited report · confidence score</text>')
+    elif kind == "fleet":
+        for i in range(1, 6):
+            g.append(f'<line x1="{x+i*w/6:.1f}" y1="{y}" x2="{x+i*w/6:.1f}" y2="{y+h}" stroke="#13213b"/>')
+        for i in range(1, 4):
+            g.append(f'<line x1="{x}" y1="{y+i*h/4:.1f}" x2="{x+w}" y2="{y+i*h/4:.1f}" stroke="#13213b"/>')
+        routes = [(f"M{x+20} {y+h-16} L{x+90} {y+h-16} L{x+90} {y+40} L{x+210} {y+40} L{x+210} {y+18}", CYAN, "3.4s"),
+                  (f"M{x+30} {y+20} L{x+150} {y+20} L{x+150} {y+h-30} L{x+w-24} {y+h-30}", PINK, "4s"),
+                  (f"M{x+w-20} {y+16} L{x+w-80} {y+16} L{x+w-80} {y+70} L{x+250} {y+70}", AMBER, "3s")]
+        for d, col, dur in routes:
+            g.append(f'<path class="pa-route" d="{d}" fill="none" stroke="{col}" stroke-width="2.5" stroke-linejoin="round"/>'
+                     f'<rect x="-6" y="-4" width="12" height="8" rx="2" fill="{col}"><animateMotion dur="{dur}" repeatCount="indefinite" rotate="auto" path="{d}"/></rect>')
+        for (px, py) in [(x+210, y+18), (x+w-24, y+h-30), (x+250, y+70)]:
+            g.append(f'<circle class="pulse" cx="{px}" cy="{py}" r="5" fill="none" stroke="{TEXT}" stroke-width="2"/>')
+        g.append(f'<text x="{x+12}" y="{y+h-28}" class="mono" font-size="10" fill="{GREEN}">VRP solved · OR-Tools</text>')
+    return "".join(g)
+
+
+PROJECTS = [
+    ("GuardianAI", "guardian", CYAN,
+     "Multi-agent CCTV surveillance: YOLOv11 + DeepSORT detection and Gemini threat reasoning with explainable decisions, built on Google ADK and MCP tools.",
+     ["FastAPI", "WebSockets", "PostgreSQL", "Redis", "React"], ["Docker Compose", "pytest", "JWT/RBAC"]),
+    ("CodeSentinel", "sentinel", GREEN,
+     "Code review combining deterministic Python AST analysis with a pluggable LLM layer: OpenAI, Anthropic or local Ollama.",
+     ["FastAPI", "SQLite", "YAML rules", "CLI"], ["Docker", "pytest", "CI gate"]),
+    ("AI Financial Coach", "coach", AMBER,
+     "Four Gemini agents orchestrated as a Google ADK SequentialAgent; all finance math is deterministic Python, never generated by the LLM.",
+     ["Google ADK", "Gemini", "Pydantic", "Streamlit"], ["Docker", "unit tests"]),
+    ("AI Meeting Assistant", "meeting", VIOLET,
+     "Recording to summary, action items, decisions and RAG Q&A. Whisper + Sarvam AI transcription, Mistral via LangChain LCEL.",
+     ["LangChain", "ChromaDB", "Whisper", "Mistral"], ["Docker Compose", "AWS EC2"]),
+    ("Nova · Multi-Agent Research", "nova", PINK,
+     "LangGraph pipeline of search, reader, writer and critic agents producing cited research reports with confidence scores.",
+     ["LangGraph", "LangChain", "FastAPI"], ["agent dashboard"]),
+    ("Cab Fleet Route Optimization", "fleet", BLUE,
+     "Vehicle routing with capacity and time windows using Google OR-Tools, plus ML demand prediction.",
+     ["OR-Tools", "FastAPI", "Pydantic v2", "scikit-learn"], ["Docker", "live on Railway"]),
+]
+
+
+def projects():
+    W = 1280
+    cw, ch, gap, top = 392, 380, 26, 130
+    H = top + 2 * ch + gap + 40
+    css = """
+.pa-scan{animation:pscan 2.6s ease-in-out infinite alternate}@keyframes pscan{to{transform:translateY(118px)}}
+.pa-scan2{animation:pscan2 3s linear infinite}@keyframes pscan2{to{transform:translateY(96px)}}
+.pa-box1{animation:pbox 3s ease-in-out infinite}.pa-box2{animation:pbox 3s ease-in-out infinite 1.4s}
+@keyframes pbox{0%,15%{opacity:0}25%,85%{opacity:1}100%{opacity:0}}
+.pa-threat{animation:pthreat 3s ease-in-out infinite alternate}@keyframes pthreat{to{width:46px;fill:#ef4444}}
+.pa-flag{animation:pflag 3s steps(1) infinite}@keyframes pflag{0%,40%{opacity:0}45%,100%{opacity:1}}
+.pa-gauge{animation:pgauge 3s ease-out infinite}@keyframes pgauge{from{stroke-dashoffset:163}}
+.pa-agent{animation:pagent 2.4s ease-in-out infinite}@keyframes pagent{0%,100%{fill-opacity:.1}25%{fill-opacity:.7}}
+.pa-bar{transform-box:fill-box;transform-origin:bottom;animation:pbar 2.2s ease-in-out infinite alternate}@keyframes pbar{from{transform:scaleY(.35)}}
+.pa-wave{transform-box:fill-box;transform-origin:center;animation:pwave .9s ease-in-out infinite alternate}@keyframes pwave{from{transform:scaleY(.25)}}
+.pa-note{animation:pnote 4s ease-in-out infinite}@keyframes pnote{0%,10%{opacity:0;transform:translateX(-8px)}25%,90%{opacity:1;transform:none}100%{opacity:0}}
+.pa-route{stroke-dasharray:400;animation:proute 4s ease-in-out infinite}@keyframes proute{from{stroke-dashoffset:400}50%,to{stroke-dashoffset:0}}
+.flow{stroke-dasharray:6 6;animation:flow 1s linear infinite}@keyframes flow{to{stroke-dashoffset:-24}}
+.trail{stroke-dasharray:120 1400;animation:trail 6s linear infinite}@keyframes trail{to{stroke-dashoffset:-1520}}
+.card{animation:card .9s cubic-bezier(.2,.8,.2,1) both}@keyframes card{from{opacity:0;transform:translateY(16px)}}
+.glow2{animation:glow2 3s ease-in-out infinite alternate}@keyframes glow2{from{opacity:.03}to{opacity:.10}}
+"""
+    b = [panel(0, 0, W, H, 26)]
+    b.append(f'<text x="40" y="58" class="tag" fill="{CYAN}">// FEATURED PROJECTS</text>'
+             f'<text x="40" y="100" class="h2">Systems I&#8217;ve designed, built and shipped</text>')
+    for i, (name, kind, col, desc, stack_, proof) in enumerate(PROJECTS):
+        cx = 40 + (i % 3) * (cw + gap)
+        cy = top + (i // 3) * (ch + gap)
+        per = 2 * (cw + ch)
+        b.append(f'<g class="card" style="animation-delay:{i*.12:.2f}s">')
+        b.append(f'<rect x="{cx}" y="{cy}" width="{cw}" height="{ch}" rx="18" fill="#0f172a" stroke="#1e293b"/>'
+                 f'<rect class="glow2" x="{cx}" y="{cy}" width="{cw}" height="{ch}" rx="18" fill="{col}"/>'
+                 f'<rect class="trail" style="animation-delay:-{i*1.1:.1f}s" x="{cx}" y="{cy}" width="{cw}" height="{ch}" rx="18" fill="none" stroke="{col}" stroke-width="2.2" pathLength="{per}"/>')
+        b.append(proj_anim(kind, cx + 16, cy + 16, cw - 32, 128))
+        b.append(f'<text x="{cx+20}" y="{cy+178}" font-size="19" font-weight="800" fill="{TEXT}">{t(name)}</text>'
+                 f'<rect x="{cx+20}" y="{cy+188}" width="34" height="3" rx="1.5" fill="{col}"/>')
+        for j, line in enumerate(wrap(desc, 46)[:4]):
+            b.append(f'<text x="{cx+20}" y="{cy+214+j*19}" font-size="13.5" fill="{MUTED}">{t(line)}</text>')
+        x0, y0 = cx + 20, cy + ch - 70
+        for k, tool in enumerate(stack_):
+            wd = 18 + len(tool) * 7
+            if x0 + wd > cx + cw - 16:
+                break
+            b.append(f'<rect x="{x0}" y="{y0}" width="{wd}" height="22" rx="6" fill="#111c33" stroke="{col}" stroke-opacity=".35"/>'
+                     f'<text x="{x0+9}" y="{y0+15}" class="mono" font-size="11" fill="{TEXT}">{t(tool)}</text>')
+            x0 += wd + 6
+        x0, y0 = cx + 20, cy + ch - 36
+        for k, pf in enumerate(proof):
+            wd = 30 + len(pf) * 7
+            live = "live" in pf
+            pc = GREEN if live else CYAN
+            b.append(f'<circle class="{"pulse" if live else ""}" cx="{x0+7}" cy="{y0+8}" r="4" fill="{pc}"/>'
+                     f'<text x="{x0+17}" y="{y0+12}" class="mono" font-size="11" font-weight="700" fill="{pc}">{t(pf)}</text>')
+            x0 += wd
+        b.append('</g>')
+    return svg(W, H, "Featured projects", "".join(b), css)
+
+
+# ---------------------------------------------------------------- technical skills
+
+SKILLS = [
+    ("GENERATIVE AI &amp; AGENTS", CYAN, [("langchain", "LangChain"), ("langgraph", "LangGraph"), ("adk", "Google ADK"),
+        ("mcp", "MCP"), ("pinecone", "Pinecone"), ("chroma", "ChromaDB"), ("openai", "OpenAI"), ("anthropic", "Anthropic"),
+        ("googlegemini", "Gemini"), ("mistralai", "Mistral"), ("groq", "Groq"), ("ollama", "Ollama")]),
+    ("MODEL TRAINING", VIOLET, [("pytorch", "PyTorch"), ("tensorflow", "TensorFlow"), ("huggingface", "Transformers"),
+        ("peft", "PEFT · LoRA / QLoRA"), ("trl", "TRL · RLHF / DPO"), ("scikitlearn", "scikit-learn")]),
+    ("VISION &amp; SPEECH", PINK, [("yolo", "YOLOv11"), ("deepsort", "DeepSORT"), ("opencv", "OpenCV"), ("whisper", "Whisper")]),
+    ("BACKEND &amp; DATA", AMBER, [("python", "Python"), ("fastapi", "FastAPI"), ("flask", "Flask"), ("pydantic", "Pydantic"),
+        ("postgresql", "PostgreSQL"), ("redis", "Redis"), ("mongodb", "MongoDB"), ("sqlite", "SQLite"), ("pandas", "Pandas")]),
+    ("DEPLOY &amp; QUALITY", GREEN, [("docker", "Docker"), ("compose", "Compose"), ("nginx", "Nginx"), ("aws", "AWS EC2"),
+        ("railway", "Railway"), ("vercel", "Vercel"), ("githubactions", "GitHub Actions"), ("pytest", "pytest")]),
+]
+
+
+def skills():
+    W = 1280
+    lx, cx0, cx1 = 40, 336, 1240
+    rows, y = [], 130
+    for label, col, items in SKILLS:
+        chips, x, ry = [], cx0, y
+        for slug, name in items:
+            w = 42 + len(name) * 7.6
+            if x + w > cx1:
+                x, ry = cx0, ry + 46
+            chips.append((slug, name, x, ry, w))
+            x += w + 8
+        rows.append((label, col, chips, y, ry + 36))
+        y = ry + 36 + 30
+    H = y + 14
+    css = """
+.sweep{animation:sweep 5s ease-in-out infinite}@keyframes sweep{0%{transform:translateX(-200px)}60%,100%{transform:translateX(1100px)}}
+.chip{animation:chip 4s ease-in-out infinite}@keyframes chip{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.flow{stroke-dasharray:4 8;animation:flow 1.2s linear infinite}@keyframes flow{to{stroke-dashoffset:-24}}
+.halo{animation:halo 2.4s ease-in-out infinite}@keyframes halo{0%,100%{r:6;opacity:.9}50%{r:11;opacity:.2}}
+.in{animation:in .7s cubic-bezier(.2,.8,.2,1) both}@keyframes in{from{opacity:0;transform:translateX(-10px)}}
+"""
+    b = [panel(0, 0, W, H, 26)]
+    b.append(f'<text x="40" y="58" class="tag" fill="{VIOLET}">// TECHNICAL SKILLS</text>'
+             f'<text x="40" y="100" class="h2">Tools I use in production code</text>'
+             f'<text x="{W-40}" y="100" text-anchor="end" class="mono" font-size="12" fill="{DIM}">every item is used in my repositories</text>')
+    k = 0
+    for label, col, chips, top, bottom in rows:
+        mid = (top + min(bottom, top + 36)) / 2 + 0
+        b.append(f'<clipPath id="row{k}"><rect x="{cx0-12}" y="{top-8}" width="{cx1-cx0+24}" height="{bottom-top+16}" rx="14"/></clipPath>')
+        b.append(f'<rect x="{cx0-12}" y="{top-8}" width="{cx1-cx0+24}" height="{bottom-top+16}" rx="14" fill="#0b1222" stroke="#1e293b"/>'
+                 f'<g clip-path="url(#row{k})"><rect class="sweep" style="animation-delay:{k*.7:.1f}s" x="{cx0-12}" y="{top-8}" width="160" height="{bottom-top+16}" fill="{col}" opacity=".10" transform="skewX(-20)"/></g>')
+        b.append(f'<circle class="halo" style="animation-delay:{k*.3:.1f}s" cx="{lx+8}" cy="{top+18}" r="6" fill="none" stroke="{col}" stroke-width="2"/>'
+                 f'<circle cx="{lx+8}" cy="{top+18}" r="4" fill="{col}"/>'
+                 f'<text x="{lx+24}" y="{top+23}" class="tag" fill="{col}">{label}</text>'
+                 f'<path class="flow" d="M{lx+24+len(label.replace("&amp;","&"))*9.6:.0f} {top+18}H{cx0-16}" stroke="{col}" stroke-width="1.6" fill="none" opacity=".7"/>')
+        for j, (slug, name, x, ry, w) in enumerate(chips):
+            b.append(f'<g class="in" style="animation-delay:{(k*6+j)*.04:.2f}s"><g class="chip" style="animation-delay:{(j%5)*.35:.2f}s">'
+                     f'<rect x="{x:.1f}" y="{ry}" width="{w:.1f}" height="36" rx="10" fill="#0f172a" stroke="{col}" stroke-opacity=".4"/>'
+                     + icon(slug, round(x + 12, 1), ry + 9, 18, fallback=name[0], color=None if slug in ICONS else col) +
+                     f'<text x="{x+38:.1f}" y="{ry+23}" class="mono" font-size="12.5" fill="{TEXT}">{t(name)}</text></g></g>')
+        k += 1
+    return svg(W, H, "Technical skills", "".join(b), css)
+
+
 def main():
     mode, out = sys.argv[1], Path(sys.argv[2])
     out.mkdir(parents=True, exist_ok=True)
     if mode == "static":
-        for name, fn in [("hero", hero)]:
+        for name, fn in [("hero", hero), ("projects", projects), ("skills", skills)]:
             (out / f"{name}.svg").write_text(fn())
     elif mode == "dashboard":
         try:
