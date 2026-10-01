@@ -36,7 +36,9 @@ jobs:
       - name: Developer dashboard
         env:
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
-        run: python3 scripts/profile_cards.py dashboard "$RUNNER_TEMP/cards"
+        run: |
+          python3 scripts/profile_cards.py dashboard "$RUNNER_TEMP/cards"
+          python3 scripts/profile_cards.py data "$RUNNER_TEMP/cards"
 
       - name: 3D contribution city
         uses: yoshi389111/github-profile-3d-contrib@latest
@@ -46,7 +48,7 @@ jobs:
 
       - name: Collect cards
         run: |
-          sudo cp "$RUNNER_TEMP/cards/dashboard.svg" dist/
+          sudo cp "$RUNNER_TEMP/cards/dashboard.svg" "$RUNNER_TEMP/cards/profile-data.json" dist/
           sudo cp profile-3d-contrib/profile-night-view.svg dist/contribution-city.svg
           sudo chown -R "$(id -u):$(id -g)" dist
 
