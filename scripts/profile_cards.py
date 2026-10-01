@@ -113,8 +113,8 @@ def tag(x, y, label, color):
 
 def hero():
     W, H = 1280, 540
-    roles = ["AI Engineer", "Generative AI Developer", "Agentic AI Builder",
-             "LLM &amp; RAG Engineer", "Computer Vision Enthusiast"]
+    roles = ["AI / ML Engineer", "Generative AI Developer", "Multi-Agent Systems Builder",
+             "TensorFlow Contributor"]
     n, per = len(roles), 3.2
     total = n * per
     role_css = "".join(
@@ -132,18 +132,18 @@ def hero():
     body.append(f'<g class="orb"><circle cx="160" cy="120" r="220" fill="{CYAN}" opacity=".07" filter="url(#soft)"/></g>')
     body.append(f'<circle cx="420" cy="470" r="200" fill="{INDIGO}" opacity=".06"/>')
     # status pill
-    body.append(f'<rect x="64" y="62" width="268" height="34" rx="17" fill="#0f2a24" stroke="{GREEN}" stroke-opacity=".45"/>'
+    body.append(f'<rect x="64" y="62" width="218" height="34" rx="17" fill="#0f2a24" stroke="{GREEN}" stroke-opacity=".45"/>'
                 f'<circle class="pulse" cx="86" cy="79" r="5.5" fill="{GREEN}"/>'
-                f'<text x="102" y="84" class="mono" font-size="13" letter-spacing="2" font-weight="700" fill="{GREEN}">OPEN TO OPPORTUNITIES</text>')
+                f'<text x="102" y="84" class="mono" font-size="13" letter-spacing="2" font-weight="700" fill="{GREEN}">AI · ML · GENAI</text>')
     body.append(f'<text x="64" y="162" font-size="34" fill="{TEXT}" font-weight="500">Hi there, I&#8217;m</text>')
     body.append(f'<text x="62" y="240" font-size="64" font-weight="800" fill="url(#brand)" filter="url(#glow)" letter-spacing="-1">{t(NAME)}</text>')
     body.append(f'<rect class="under" x="64" y="262" width="160" height="4" rx="2" fill="url(#brand)"/>')
     body.append(f'<text x="64" y="322" class="mono" font-size="24" font-weight="700" fill="{CYAN}">&gt;</text>')
     for i, r in enumerate(roles):
         body.append(f'<text class="r{i} mono" x="92" y="322" font-size="24" fill="{TEXT}">{r}</text>')
-    body.append(f'<text x="64" y="378" font-size="19" fill="{MUTED}">Building LLM-powered products, RAG pipelines and multi-agent</text>')
-    body.append(f'<text x="64" y="406" font-size="19" fill="{MUTED}">systems &#8212; turning AI research into production-ready apps.</text>')
-    meta = [(CYAN, "B.Tech CSE (Core)"), (VIOLET, "LLMs · RAG · Agents"), (PINK, "Computer Vision")]
+    body.append(f'<text x="64" y="378" font-size="19" fill="{MUTED}">I build LLM applications, RAG pipelines and multi-agent systems,</text>')
+    body.append(f'<text x="64" y="406" font-size="19" fill="{MUTED}">and ship them with FastAPI, Docker and tested code.</text>')
+    meta = [(CYAN, "B.Tech CSE (Core)"), (VIOLET, "Open source: TensorFlow · MongoDB · Uber")]
     x = 64
     for col, label in meta:
         body.append(f'<circle cx="{x+7}" cy="447" r="6" fill="none" stroke="{col}" stroke-width="2"/><circle cx="{x+7}" cy="447" r="2" fill="{col}"/>'
@@ -619,7 +619,7 @@ def dashboard(d):
              f'<text x="{RX+180}" y="326" font-size="40" font-weight="800" fill="{TEXT}">{d["best_streak"]}</text>'
              f'<text x="{RX+180}" y="352" class="mono" font-size="10.5" letter-spacing="2" fill="{MUTED}">BEST · DAYS</text>')
     focus = [("BUILDING", "Multi-agent AI systems", CYAN), ("EXPLORING", "LLM fine-tuning &amp; MLOps", VIOLET),
-             ("FUEL", "Coffee, curiosity &amp; code", PINK)]
+             ("OPEN SOURCE", "TensorFlow · MongoDB · Uber", PINK)]
     b.append(f'<rect x="{RX}" y="396" width="344" height="150" rx="16" fill="#111827" stroke="#1e293b"/>')
     for i, (k, v, col) in enumerate(focus):
         y = 426 + i * 42
@@ -692,7 +692,7 @@ def main():
     mode, out = sys.argv[1], Path(sys.argv[2])
     out.mkdir(parents=True, exist_ok=True)
     if mode == "static":
-        for name, fn in [("hero", hero), ("about", about), ("stack", stack), ("connect", connect)]:
+        for name, fn in [("hero", hero)]:
             (out / f"{name}.svg").write_text(fn())
     elif mode == "dashboard":
         try:
