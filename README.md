@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Maddipatla Chetan — AI / ML Engineer, Generative AI" width="100%"/>
+<img src="./assets/hero.svg?v=3" alt="Maddipatla Chetan — AI / ML Engineer, Generative AI" width="100%"/>
 
 **AI / ML engineer specializing in Generative AI: LLM applications, RAG and multi-agent systems.**<br/>
 B.Tech Computer Science (Core)
@@ -14,7 +14,7 @@ B.Tech Computer Science (Core)
 
 ---
 
-<img src="./assets/projects.svg" alt="Featured projects: GuardianAI, CodeSentinel, AI Financial Coach, AI Meeting Assistant, Nova, Cab Fleet Route Optimization" width="100%"/>
+<img src="./assets/projects.svg?v=3" alt="Featured projects: GuardianAI, CodeSentinel, AI Financial Coach, AI Meeting Assistant, Nova, Cab Fleet Route Optimization" width="100%"/>
 
 <p align="center">
 <a href="https://github.com/MaddipatlaChetan24/guardianai-real-time-threat-detection">GuardianAI</a> ·
@@ -25,7 +25,7 @@ B.Tech Computer Science (Core)
 <a href="https://github.com/MaddipatlaChetan24/Cab-Fleet-Route-Optimization-System">Cab Fleet Optimization</a> (<a href="https://cab-fleet-route-optimization-system-production.up.railway.app">live</a>)
 </p>
 
-<img src="./assets/more.svg" alt="More projects: LLM apps, fine-tuning and machine learning" width="100%"/>
+<img src="./assets/more.svg?v=3" alt="More projects: LLM apps, fine-tuning and machine learning" width="100%"/>
 
 <details>
 <summary><b>Links to more projects</b></summary>
@@ -39,9 +39,9 @@ B.Tech Computer Science (Core)
 
 </details>
 
-<img src="./assets/skills.svg" alt="Technical skills: generative AI and agents, model training, vision and speech, backend and data, deployment and quality" width="100%"/>
+<img src="./assets/skills.svg?v=3" alt="Technical skills: generative AI and agents, model training, vision and speech, backend and data, deployment and quality" width="100%"/>
 
-<img src="./assets/div-activity.svg" alt="GitHub activity" width="100%"/>
+<img src="./assets/div-activity.svg?v=3" alt="GitHub activity" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/dashboard.svg" alt="Developer dashboard: repositories, commits, pull requests, languages and streak" width="100%"/>
 
@@ -53,4 +53,4 @@ B.Tech Computer Science (Core)
   <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
-<img src="./assets/footer.svg" alt="Thanks for visiting" width="100%"/>
+<img src="./assets/footer.svg?v=3" alt="Thanks for visiting" width="100%"/>
