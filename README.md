@@ -3,24 +3,13 @@
 <img src="./assets/hero.svg" alt="Maddipatla Chetan — AI / ML Engineer, Generative AI" width="100%"/>
 
 **AI / ML engineer specializing in Generative AI: LLM applications, RAG and multi-agent systems.**<br/>
-B.Tech Computer Science (Core) · 24 merged pull requests to TensorFlow, MongoDB and Uber open-source projects
+B.Tech Computer Science (Core)
 
-[LinkedIn](https://www.linkedin.com/in/maddipatla-chetan/) · [Email](mailto:chetan121318@gmail.com) · [All merged open-source PRs](https://github.com/pulls?q=is%3Apr+author%3AMaddipatlaChetan24+is%3Amerged+-user%3AMaddipatlaChetan24)
+[LinkedIn](https://www.linkedin.com/in/maddipatla-chetan/) · [Email](mailto:chetan121318@gmail.com)
 
 </div>
 
 ---
-
-## Open-source contributions
-
-Merged upstream contributions to large production codebases, focused on correctness, type safety, tests and CI.
-
-| Project | Merged PRs | Representative work |
-|:--|:--:|:--|
-| [**TensorFlow**](https://github.com/tensorflow/tensorflow) | 18 | [Accelerator detection and JSON output](https://github.com/tensorflow/tensorflow/pull/126452) · [DLPack tests refactor with type hints](https://github.com/tensorflow/tensorflow/pull/125795) · [Safer buffer deletion in `c_api_util.py`](https://github.com/tensorflow/tensorflow/pull/127710) |
-| [**MongoDB — laravel-mongodb**](https://github.com/mongodb/laravel-mongodb) | 3 | [Refactor `AtlasSearchTest`](https://github.com/mongodb/laravel-mongodb/pull/3582) · [Null handling in `count`](https://github.com/mongodb/laravel-mongodb/pull/3586) |
-| [**Uber — ADR**](https://github.com/uber/ADR) | 1 | [Concurrency handling in benchmark execution](https://github.com/uber/ADR/pull/136) |
-| [**Uber — Base Web**](https://github.com/uber/baseweb) | 2 | [Concurrency control for the PR check workflow](https://github.com/uber/baseweb/pull/5407) |
 
 ## Featured projects
 
