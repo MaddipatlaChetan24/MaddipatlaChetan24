@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 120" width="1280" height="120" role="img" aria-label="Live stats, contributions and the snake"><title>Live stats, contributions and the snake</title><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1222"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".7"/><stop offset=".5" stop-color="#3b82f6" stop-opacity=".25"/><stop offset="1" stop-color="#6366f1" stop-opacity=".7"/></linearGradient>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".55" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1e293b"/></pattern>
+<filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+<style>
+text{font-family:'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.tag{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:13px;letter-spacing:2.5px;font-weight:600}
+.h2{font-size:30px;font-weight:700;fill:#e6edf3}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+.scanl{animation:scanl 4s ease-in-out infinite}@keyframes scanl{from{transform:translateX(-260px)}to{transform:translateX(1280px)}}
+.blinkd{animation:pulse 1.6s ease-in-out infinite}
+
+</style>
+</defs><rect x="0" y="0" width="1280" height="120" rx="18" fill="url(#bg)"/><rect x="0" y="0" width="1280" height="120" rx="18" fill="url(#dots)" opacity=".6"/><rect x="0.75" y="0.75" width="1278.5" height="118.5" rx="18" fill="none" stroke="url(#edge)" stroke-width="1.5"/><circle class="blinkd" cx="40" cy="40" r="6" fill="#34d399"/><text x="58" y="46" class="tag" fill="#34d399">// GITHUB ACTIVITY</text><text x="40" y="88" font-size="30" font-weight="800" fill="#e6edf3">Live stats, contributions and the snake</text><rect x="40" y="104" width="1200" height="2" rx="1" fill="#1e293b"/><clipPath id="dl"><rect x="40" y="100" width="1200" height="10"/></clipPath><g clip-path="url(#dl)"><rect class="scanl" x="0" y="103" width="240" height="4" rx="2" fill="url(#brand)"/></g></svg>
