@@ -629,6 +629,65 @@ def dashboard(d):
     return svg(W, H, "Developer ID and dashboard", "".join(b), css)
 
 
+# ---------------------------------------------------------------- public profile data
+
+DATA_QUERY = """
+query($login:String!){
+  user(login:$login){
+    pinnedItems(first:6, types:REPOSITORY){ nodes{ ... on Repository{ name } } }
+    repositories(ownerAffiliations:OWNER, privacy:PUBLIC, isFork:false, first:100,
+                 orderBy:{field:PUSHED_AT, direction:DESC}){
+      nodes{
+        name description homepageUrl stargazerCount forkCount pushedAt createdAt
+        primaryLanguage{ name }
+        repositoryTopics(first:10){ nodes{ topic{ name } } }
+        dockerfile: object(expression:"HEAD:Dockerfile"){ id }
+        compose: object(expression:"HEAD:docker-compose.yml"){ id }
+        workflows: object(expression:"HEAD:.github/workflows"){ id }
+        tests: object(expression:"HEAD:tests"){ id }
+      }
+    }
+    pullRequests(first:100, states:MERGED, orderBy:{field:CREATED_AT, direction:DESC}){
+      nodes{ title url mergedAt additions deletions
+             repository{ nameWithOwner isPrivate stargazerCount owner{ login } } }
+    }
+  }
+}"""
+
+
+def fetch_public_data():
+    """Public-only facts used to keep the README accurate (no private repos)."""
+    token = os.environ["PROFILE_TOKEN"]
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": DATA_QUERY, "variables": {"login": USER}}).encode(),
+        headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"})
+    data = json.load(urllib.request.urlopen(req, timeout=30))
+    if data.get("errors"):
+        raise RuntimeError(data["errors"])
+    u = data["data"]["user"]
+    repos = []
+    for r in u["repositories"]["nodes"]:
+        repos.append({
+            "name": r["name"], "description": r["description"], "homepage": r["homepageUrl"],
+            "stars": r["stargazerCount"], "forks": r["forkCount"], "pushed": r["pushedAt"][:10],
+            "created": r["createdAt"][:10],
+            "language": (r["primaryLanguage"] or {}).get("name"),
+            "topics": [n["topic"]["name"] for n in r["repositoryTopics"]["nodes"]],
+            "docker": bool(r["dockerfile"] or r["compose"]), "ci": bool(r["workflows"]),
+            "tests": bool(r["tests"]),
+        })
+    external = [
+        {"repo": p["repository"]["nameWithOwner"], "stars": p["repository"]["stargazerCount"],
+         "title": p["title"], "url": p["url"], "merged": p["mergedAt"][:10],
+         "additions": p["additions"], "deletions": p["deletions"]}
+        for p in u["pullRequests"]["nodes"]
+        if not p["repository"]["isPrivate"] and p["repository"]["owner"]["login"].lower() != USER.lower()
+    ]
+    return {"pinned": [n["name"] for n in u["pinnedItems"]["nodes"] if n],
+            "repos": repos, "external_merged_prs": external}
+
+
 def main():
     mode, out = sys.argv[1], Path(sys.argv[2])
     out.mkdir(parents=True, exist_ok=True)
@@ -642,8 +701,10 @@ def main():
             print("Using fallback dashboard data:", exc)
             data = FALLBACK
         (out / "dashboard.svg").write_text(dashboard(data))
+    elif mode == "data":
+        (out / "profile-data.json").write_text(json.dumps(fetch_public_data(), indent=1))
     else:
-        raise SystemExit("mode must be 'static' or 'dashboard'")
+        raise SystemExit("mode must be 'static', 'dashboard' or 'data'")
 
 
 if __name__ == "__main__":
