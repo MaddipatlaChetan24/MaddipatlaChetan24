@@ -63,6 +63,8 @@ def base_defs(extra_css=""):
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1e293b"/></pattern>
 <filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+<filter id="soft2" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="1.2"/></filter>
+<linearGradient id="sstail" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".7" stop-color="#93c5fd" stop-opacity=".5"/><stop offset="1" stop-color="#fff"/></linearGradient>
 <style>
 text{{font-family:{SANS}}}
 .mono{{font-family:{MONO}}}
@@ -70,14 +72,44 @@ text{{font-family:{SANS}}}
 .h2{{font-size:30px;font-weight:700;fill:{TEXT}}}
 .pulse{{animation:pulse 2s ease-in-out infinite}}
 @keyframes pulse{{0%,100%{{opacity:1}}50%{{opacity:.25}}}}
+.ss{{opacity:0}}
+@keyframes ss{{0%{{opacity:0;transform:translate(0,0)}}2%{{opacity:1}}14%{{opacity:0;transform:translate(460px,193px)}}100%{{opacity:0;transform:translate(460px,193px)}}}}
+.twk{{animation:twk 4s ease-in-out infinite}}@keyframes twk{{0%,100%{{opacity:.15}}50%{{opacity:.8}}}}
 {extra_css}
 </style>
 </defs>"""
 
 
+_STAR_IDS = [0]
+
+
+def shooting_stars(x, y, w, h, r=22):
+    """Shooting stars streaking across a panel background, plus a few twinkles."""
+    _STAR_IDS[0] += 1
+    cid = f"sky{_STAR_IDS[0]}"
+    n = max(2, round(w * h / 110000))
+    g = [f'<clipPath id="{cid}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}"/></clipPath>',
+         f'<g clip-path="url(#{cid})">']
+    for i in range(n * 2):
+        tx, ty = x + (i * 211 + 37) % w, y + (i * 97 + 13) % h
+        g.append(f'<circle class="twk" style="animation-delay:{(i*0.53)%4:.2f}s" cx="{tx}" cy="{ty}" r="{0.8+(i%3)*0.5:.1f}" fill="#e2e8f0"/>')
+    for i in range(n):
+        sx = x + (i * 347 + 60) % max(w - 200, 1) - 120
+        sy = y + (i * 131 + 10) % max(int(h * 0.6), 1) - 40
+        length = 90 + (i * 37) % 70
+        dur = 6 + (i * 1.7) % 5
+        delay = (i * 2.3) % dur
+        g.append(f'<g class="ss" style="animation:ss {dur:.1f}s linear {delay:.1f}s infinite">'
+                 f'<line x1="{sx-length}" y1="{sy-length*0.42:.1f}" x2="{sx}" y2="{sy}" stroke="url(#sstail)" stroke-width="2" stroke-linecap="round"/>'
+                 f'<circle cx="{sx}" cy="{sy}" r="2.2" fill="#fff" filter="url(#soft2)"/></g>')
+    g.append('</g>')
+    return "".join(g)
+
+
 def panel(x, y, w, h, r=22):
     return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" fill="url(#bg)"/>'
             f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" fill="url(#dots)" opacity=".6"/>'
+            + shooting_stars(x, y, w, h, r) +
             f'<rect x="{x+.75}" y="{y+.75}" width="{w-1.5}" height="{h-1.5}" rx="{r}" fill="none" stroke="url(#edge)" stroke-width="1.5"/>')
 
 
@@ -985,7 +1017,7 @@ def footer():
 .tw{animation:tw 3s ease-in-out infinite alternate}@keyframes tw{from{opacity:.2}to{opacity:1}}
 """
     b = [f'<clipPath id="fc"><rect x="0" y="0" width="{W}" height="{H}" rx="26"/></clipPath><g clip-path="url(#fc)">',
-         f'<rect width="{W}" height="{H}" fill="url(#bg)"/>']
+         f'<rect width="{W}" height="{H}" fill="url(#bg)"/>', shooting_stars(0, 0, W, H, 26)]
     for i in range(22):
         b.append(f'<circle class="tw" style="animation-delay:{(i*.37)%3:.2f}s" cx="{(i*157)%W}" cy="{18+(i*41)%110}" r="{1+(i%3)*.6:.1f}" fill="#e2e8f0"/>')
     b.append(f'<g class="w1"><path d="M0 150C160 110 320 190 480 150S800 110 960 150 1280 190 1440 150V220H0z" fill="{BLUE}" opacity=".35"/></g>'
