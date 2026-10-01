@@ -25,8 +25,10 @@ B.Tech Computer Science (Core)
 <a href="https://github.com/MaddipatlaChetan24/Cab-Fleet-Route-Optimization-System">Cab Fleet Optimization</a> (<a href="https://cab-fleet-route-optimization-system-production.up.railway.app">live</a>)
 </p>
 
+<img src="./assets/more.svg" alt="More projects: LLM apps, fine-tuning and machine learning" width="100%"/>
+
 <details>
-<summary><b>More projects</b></summary>
+<summary><b>Links to more projects</b></summary>
 <br/>
 
 | Area | Projects |
@@ -39,7 +41,7 @@ B.Tech Computer Science (Core)
 
 <img src="./assets/skills.svg" alt="Technical skills: generative AI and agents, model training, vision and speech, backend and data, deployment and quality" width="100%"/>
 
-## GitHub activity
+<img src="./assets/div-activity.svg" alt="GitHub activity" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/dashboard.svg" alt="Developer dashboard: repositories, commits, pull requests, languages and streak" width="100%"/>
 
@@ -50,3 +52,5 @@ B.Tech Computer Science (Core)
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake.svg"/>
   <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
+
+<img src="./assets/footer.svg" alt="Thanks for visiting" width="100%"/>

@@ -63,6 +63,8 @@ def base_defs(extra_css=""):
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1e293b"/></pattern>
 <filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+<filter id="soft2" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="1.2"/></filter>
+<linearGradient id="sstail" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".7" stop-color="#93c5fd" stop-opacity=".5"/><stop offset="1" stop-color="#fff"/></linearGradient>
 <style>
 text{{font-family:{SANS}}}
 .mono{{font-family:{MONO}}}
@@ -70,14 +72,44 @@ text{{font-family:{SANS}}}
 .h2{{font-size:30px;font-weight:700;fill:{TEXT}}}
 .pulse{{animation:pulse 2s ease-in-out infinite}}
 @keyframes pulse{{0%,100%{{opacity:1}}50%{{opacity:.25}}}}
+.ss{{opacity:0}}
+@keyframes ss{{0%{{opacity:0;transform:translate(0,0)}}2%{{opacity:1}}14%{{opacity:0;transform:translate(460px,193px)}}100%{{opacity:0;transform:translate(460px,193px)}}}}
+.twk{{animation:twk 4s ease-in-out infinite}}@keyframes twk{{0%,100%{{opacity:.15}}50%{{opacity:.8}}}}
 {extra_css}
 </style>
 </defs>"""
 
 
+_STAR_IDS = [0]
+
+
+def shooting_stars(x, y, w, h, r=22):
+    """Shooting stars streaking across a panel background, plus a few twinkles."""
+    _STAR_IDS[0] += 1
+    cid = f"sky{_STAR_IDS[0]}"
+    n = max(2, round(w * h / 110000))
+    g = [f'<clipPath id="{cid}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}"/></clipPath>',
+         f'<g clip-path="url(#{cid})">']
+    for i in range(n * 2):
+        tx, ty = x + (i * 211 + 37) % w, y + (i * 97 + 13) % h
+        g.append(f'<circle class="twk" style="animation-delay:{(i*0.53)%4:.2f}s" cx="{tx}" cy="{ty}" r="{0.8+(i%3)*0.5:.1f}" fill="#e2e8f0"/>')
+    for i in range(n):
+        sx = x + (i * 347 + 60) % max(w - 200, 1) - 120
+        sy = y + (i * 131 + 10) % max(int(h * 0.6), 1) - 40
+        length = 90 + (i * 37) % 70
+        dur = 6 + (i * 1.7) % 5
+        delay = (i * 2.3) % dur
+        g.append(f'<g class="ss" style="animation:ss {dur:.1f}s linear {delay:.1f}s infinite">'
+                 f'<line x1="{sx-length}" y1="{sy-length*0.42:.1f}" x2="{sx}" y2="{sy}" stroke="url(#sstail)" stroke-width="2" stroke-linecap="round"/>'
+                 f'<circle cx="{sx}" cy="{sy}" r="2.2" fill="#fff" filter="url(#soft2)"/></g>')
+    g.append('</g>')
+    return "".join(g)
+
+
 def panel(x, y, w, h, r=22):
     return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" fill="url(#bg)"/>'
             f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" fill="url(#dots)" opacity=".6"/>'
+            + shooting_stars(x, y, w, h, r) +
             f'<rect x="{x+.75}" y="{y+.75}" width="{w-1.5}" height="{h-1.5}" rx="{r}" fill="none" stroke="url(#edge)" stroke-width="1.5"/>')
 
 
@@ -908,11 +940,101 @@ def skills():
     return svg(W, H, "Technical skills", "".join(b), css)
 
 
+# ---------------------------------------------------------------- more projects marquee
+
+MORE = [
+    ("LLM APP", CYAN, "Navigo Travel Planner", "LangGraph · Groq · PostgreSQL"),
+    ("RAG", BLUE, "Medical Chatbot", "LangChain · Pinecone · Flask"),
+    ("FINE-TUNING", VIOLET, "Falcon-7B QLoRA", "QLoRA · PEFT · Transformers"),
+    ("FINE-TUNING", VIOLET, "LoRA Fine-Tuning", "LoRA · PEFT · TRL"),
+    ("ALIGNMENT", PINK, "RLHF / DPO Training", "TRL · custom datasets"),
+    ("LLM INFERENCE", CYAN, "Cache-Augmented Generation", "precomputed KV cache"),
+    ("TEAM · ML", AMBER, "Amazon ML Challenge 2026", "entity resolution · transformers"),
+    ("DEEP LEARNING", GREEN, "Argus Fraud Detection", "class-weighted neural net"),
+    ("RECOMMENDER", PINK, "CineMind AI", "TF-IDF · hybrid ranking"),
+    ("NLP", BLUE, "NLP Sentiment Analysis", "LR · SVM · LSTM · BiLSTM"),
+]
+
+
+def more_projects():
+    W, H = 1280, 350
+    cw, chh, gap = 296, 92, 16
+    rows = [MORE[:5], MORE[5:]]
+    setw = 5 * (cw + gap)
+    css = f"""
+.mq0{{animation:mq0 38s linear infinite}}@keyframes mq0{{to{{transform:translateX(-{setw}px)}}}}
+.mq1{{animation:mq1 44s linear infinite}}@keyframes mq1{{from{{transform:translateX(-{setw}px)}}to{{transform:translateX(0)}}}}
+.dotp{{animation:pulse 2s ease-in-out infinite}}
+"""
+    b = [panel(0, 0, W, H, 26)]
+    b.append(f'<text x="40" y="58" class="tag" fill="{PINK}">// MORE PROJECTS</text>'
+             f'<text x="40" y="100" class="h2">LLM apps, fine-tuning and machine learning</text>')
+    b.append(f'<linearGradient id="fadeL" x1="0" x2="1"><stop offset="0" stop-color="#0c1220"/><stop offset="1" stop-color="#0c1220" stop-opacity="0"/></linearGradient>'
+             f'<linearGradient id="fadeR" x1="1" x2="0"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>'
+             f'<clipPath id="mqclip"><rect x="2" y="120" width="{W-4}" height="222"/></clipPath>')
+    b.append('<g clip-path="url(#mqclip)">')
+    for r, items in enumerate(rows):
+        y = 128 + r * (chh + 14)
+        b.append(f'<g class="mq{r}">')
+        for rep in range(3):
+            for i, (cat, col, name, tech) in enumerate(items):
+                x = 20 + rep * setw + i * (cw + gap)
+                b.append(f'<rect x="{x}" y="{y}" width="{cw}" height="{chh}" rx="14" fill="#0f172a" stroke="{col}" stroke-opacity=".45"/>'
+                         f'<rect x="{x}" y="{y+16}" width="3" height="{chh-32}" rx="1.5" fill="{col}"/>'
+                         f'<circle class="dotp" style="animation-delay:{(i*.4):.1f}s" cx="{x+cw-18}" cy="{y+18}" r="4" fill="{col}"/>'
+                         f'<text x="{x+18}" y="{y+26}" class="mono" font-size="10.5" letter-spacing="2" font-weight="700" fill="{col}">{t(cat)}</text>'
+                         f'<text x="{x+18}" y="{y+53}" font-size="16" font-weight="800" fill="{TEXT}">{t(name)}</text>'
+                         f'<text x="{x+18}" y="{y+75}" class="mono" font-size="11.5" fill="{MUTED}">{t(tech)}</text>')
+        b.append('</g>')
+    b.append('</g>')
+    b.append(f'<rect x="2" y="120" width="70" height="222" fill="url(#fadeL)"/><rect x="{W-72}" y="120" width="70" height="222" fill="url(#fadeR)"/>')
+    return svg(W, H, "More projects", "".join(b), css)
+
+
+# ---------------------------------------------------------------- section divider + footer
+
+def divider(tag_text, title, col):
+    W, H = 1280, 120
+    css = """
+.scanl{animation:scanl 4s ease-in-out infinite}@keyframes scanl{from{transform:translateX(-260px)}to{transform:translateX(1280px)}}
+.blinkd{animation:pulse 1.6s ease-in-out infinite}
+"""
+    b = [panel(0, 0, W, H, 18),
+         f'<circle class="blinkd" cx="40" cy="40" r="6" fill="{col}"/>',
+         f'<text x="58" y="46" class="tag" fill="{col}">{t(tag_text)}</text>',
+         f'<text x="40" y="88" font-size="30" font-weight="800" fill="{TEXT}">{t(title)}</text>',
+         f'<rect x="40" y="104" width="{W-80}" height="2" rx="1" fill="#1e293b"/>',
+         f'<clipPath id="dl"><rect x="40" y="100" width="{W-80}" height="10"/></clipPath>',
+         f'<g clip-path="url(#dl)"><rect class="scanl" x="0" y="103" width="240" height="4" rx="2" fill="url(#brand)"/></g>']
+    return svg(W, H, title, "".join(b), css)
+
+
+def footer():
+    W, H = 1280, 220
+    css = """
+.w1{animation:w 9s ease-in-out infinite alternate}.w2{animation:w 12s ease-in-out infinite alternate-reverse}
+@keyframes w{to{transform:translateX(-160px)}}
+.tw{animation:tw 3s ease-in-out infinite alternate}@keyframes tw{from{opacity:.2}to{opacity:1}}
+"""
+    b = [f'<clipPath id="fc"><rect x="0" y="0" width="{W}" height="{H}" rx="26"/></clipPath><g clip-path="url(#fc)">',
+         f'<rect width="{W}" height="{H}" fill="url(#bg)"/>', shooting_stars(0, 0, W, H, 26)]
+    for i in range(22):
+        b.append(f'<circle class="tw" style="animation-delay:{(i*.37)%3:.2f}s" cx="{(i*157)%W}" cy="{18+(i*41)%110}" r="{1+(i%3)*.6:.1f}" fill="#e2e8f0"/>')
+    b.append(f'<g class="w1"><path d="M0 150C160 110 320 190 480 150S800 110 960 150 1280 190 1440 150V220H0z" fill="{BLUE}" opacity=".35"/></g>'
+             f'<g class="w2"><path d="M-160 170C0 140 160 210 320 170S640 140 800 170 1120 210 1280 170 1440 150 1440 170V220H-160z" fill="{CYAN}" opacity=".3"/></g>'
+             f'<g class="w1"><path d="M0 195C200 175 400 215 600 195S1000 175 1200 195 1440 205 1440 195V220H0z" fill="{INDIGO}" opacity=".5"/></g>')
+    b.append(f'<text x="{W/2}" y="70" text-anchor="middle" font-size="30" font-weight="800" fill="url(#brand)">Thanks for visiting</text>'
+             f'<text x="{W/2}" y="104" text-anchor="middle" class="mono" font-size="15" letter-spacing="3" fill="{MUTED}">ALWAYS LEARNING · ALWAYS BUILDING</text>')
+    b.append('</g>')
+    return svg(W, H, "Thanks for visiting", "".join(b), css)
+
+
 def main():
     mode, out = sys.argv[1], Path(sys.argv[2])
     out.mkdir(parents=True, exist_ok=True)
     if mode == "static":
-        for name, fn in [("hero", hero), ("projects", projects), ("skills", skills)]:
+        for name, fn in [("hero", hero), ("projects", projects), ("skills", skills), ("more", more_projects), ("footer", footer),
+                         ("div-activity", lambda: divider("// GITHUB ACTIVITY", "Live stats, contributions and the snake", GREEN))]:
             (out / f"{name}.svg").write_text(fn())
     elif mode == "dashboard":
         try:
