@@ -1,173 +1,81 @@
-<!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img width="100%" alt="Maddipatla Chetan banner" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:000428,50:004e92,100:00c6ff&text=Maddipatla%20Chetan&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Generative%20AI%20%E2%80%A2%20Agentic%20AI%20%E2%80%A2%20LLMs&descAlignY=58&descSize=20"/>
+<!-- HERO -->
+<img src="./assets/hero.svg" alt="Hi, I'm Maddipatla Chetan — AI Engineer" width="100%"/>
 
-<a href="https://github.com/MaddipatlaChetan24">
-<img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00C6FF&center=true&vCenter=true&width=750&lines=Hi+there%2C+I'm+Chetan+%F0%9F%91%8B;AI+Engineer+in+the+making+%F0%9F%A4%96;Building+LLM+%26+RAG+applications;Agentic+AI+%26+Multi-Agent+Systems;Computer+Vision+%26+Deep+Learning;Turning+research+into+real+products+%F0%9F%9A%80"/>
-</a>
+<br/><br/>
 
-<br>
+<!-- WHAT I DO -->
+<img src="./assets/about.svg" alt="AI engineer: what I build" width="100%"/>
 
-<a href="https://www.linkedin.com/in/maddipatla-chetan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:chetan121318@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://github.com/MaddipatlaChetan24?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/MaddipatlaChetan24?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=004e92"/></a>
-<img alt="Profile views" src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&label=Profile%20Views&style=for-the-badge&color=00c6ff"/>
+<br/><br/>
+
+<!-- TECH STACK -->
+<img src="./assets/stack.svg" alt="Tech stack" width="100%"/>
+
+<br/><br/>
+
+<!-- DEVELOPER ID + LIVE DASHBOARD (rebuilt by the Generate Profile Cards workflow) -->
+<img src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/dashboard.svg" alt="Developer ID and dashboard" width="100%"/>
+
+<br/><br/>
 
 </div>
 
-<br>
+## 🚀 Featured builds
 
-<!-- ===================== ABOUT ===================== -->
-<h2>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving hand" width="32"/>
-About Me
-</h2>
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-I'm a **B.Tech Computer Science (Core)** student passionate about **Artificial Intelligence, Machine Learning and Generative AI**.
-
-I love building intelligent applications with **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, NLP and Computer Vision** — and I'm always expanding what I know about modern AI engineering.
-
-My goal is to **bridge research and real-world applications** by building scalable, production-ready AI systems.
-
-> *"The best way to predict the future is to build it."*
-
-</td>
-<td width="42%" valign="top">
-
-```python
-class Chetan:
-    role      = "AI Engineer"
-    education = "B.Tech CSE (Core)"
-    focus     = ["Generative AI",
-                 "Agentic AI",
-                 "LLMs & RAG",
-                 "Computer Vision"]
-    learning  = ["Multi-Agent Systems",
-                 "LLM Fine-Tuning",
-                 "MLOps"]
-    motto     = "Always learning, " \
-                "always building"
-```
-
-</td>
-</tr>
-</table>
-
-<!-- ===================== WHAT I BUILD ===================== -->
-<h2>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="32"/>
-What I Build
-</h2>
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="48"/><br>
-<b>AI Applications</b><br>
-<sub>LLM-powered products, RAG chatbots, agentic systems</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Eyes.png" alt="Eyes" width="48"/><br>
-<b>Computer Vision</b><br>
-<sub>Real-time detection, surveillance intelligence</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="48"/><br>
-<b>Model Fine-Tuning</b><br>
-<sub>Parameter-efficient adaptation (LoRA / QLoRA)</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Building%20Construction.png" alt="Building" width="48"/><br>
-<b>AI Infrastructure</b><br>
-<sub>APIs, retrieval pipelines, evaluation, deployment</sub>
-</td>
-</tr>
-</table>
-
-<!-- ===================== TECH STACK ===================== -->
-<h2>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="32"/>
-Tech Stack
-</h2>
+| Project | What it is | Stack |
+|:---|:---|:---|
+| [**GuardianAI**](https://github.com/MaddipatlaChetan24/guardianai-real-time-threat-detection) | Multi-agent surveillance system for autonomous threat detection and emergency response | `Python` `Google ADK` `Gemini` `YOLO` `FastAPI` |
+| [**Multi-Agent Financial Coach**](https://github.com/MaddipatlaChetan24/Multi-agent-financial-coach) | Turns income, expenses, debts and goals into a practical financial plan | `Python` `Google ADK` `Gemini` |
+| [**CodeSentinel**](https://github.com/MaddipatlaChetan24/CodeSentinel) | Multi-LLM code review combining AST static analysis with LLM insights | `Python` `OpenAI` `Anthropic` `Ollama` |
+| [**AI Meeting Agents**](https://github.com/MaddipatlaChetan24/ai-meeting-agents) | Meeting recordings → summaries, action items and Q&A | `Whisper` `Mistral` `LangChain` `RAG` |
+| [**CineMind AI**](https://github.com/MaddipatlaChetan24/CineMind-AI) | Hybrid movie recommendation engine with NLP and content-based filtering | `Python` `NLP` `TF-IDF` |
+| [**Amazon ML Challenge 2026**](https://github.com/MaddipatlaChetan24/Amazon-ML-Challenge-2026) | Multi-source entity resolution with gradient boosting and a transformer re-checker | `Python` `ML` `Transformers` |
 
 <div align="center">
 
-<img alt="Tech stack" src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,fastapi,flask&theme=dark"/>
-<br>
-<img alt="Tools and databases" src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,docker,kubernetes,aws,git,github,linux,vscode&theme=dark"/>
+<br/>
 
-<br><br>
+## 🌃 My contribution city
 
-<img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img alt="Transformers" src="https://img.shields.io/badge/Transformers-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white"/>
-<img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-<img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-4B0082?style=for-the-badge&logo=langgraph&logoColor=white"/>
-<img alt="LlamaIndex" src="https://img.shields.io/badge/LlamaIndex-8A2BE2?style=for-the-badge"/>
-<img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img alt="CrewAI" src="https://img.shields.io/badge/CrewAI-FF5A50?style=for-the-badge"/>
-<img alt="AutoGen" src="https://img.shields.io/badge/AutoGen-9333EA?style=for-the-badge"/>
-<img alt="DSPy" src="https://img.shields.io/badge/DSPy-0F766E?style=for-the-badge"/>
-<img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
-<img alt="Vector Databases" src="https://img.shields.io/badge/Vector%20DBs-336791?style=for-the-badge"/>
-<img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+*Every commit builds another tower — rebuilt automatically.*
 
-</div>
+<img src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/contribution-city.svg" alt="3D contribution city" width="100%"/>
 
-<details>
-<summary><b>AI concepts I work with</b></summary>
-<br>
+<br/><br/>
 
-| Area | Topics |
-|---|---|
-| **Generative AI** | LLMs, Prompt Engineering, RAG, Fine-Tuning (LoRA / QLoRA), Evaluation |
-| **Agentic AI** | Tool / Function Calling, Reasoning, Planning, Memory, Multi-Agent Systems |
-| **ML & DL** | Deep Learning, NLP, Computer Vision |
-| **Engineering** | APIs, Retrieval Pipelines, MLOps, Deployment |
+## 🐍 Contribution snake
 
-</details>
-
-<!-- ===================== STATS ===================== -->
-<h2>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="32"/>
-GitHub Stats
-</h2>
-
-<div align="center">
-
-<img width="100%" alt="GitHub stats and languages" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-metrics.svg"/>
-
-<img width="100%" alt="Contribution calendar and streak" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-streak.svg"/>
-
-</div>
-
-<!-- ===================== SNAKE ===================== -->
-<h2>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="32"/>
-Contribution Snake
-</h2>
-
-<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake.svg"/>
   <img width="100%" alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
-</div>
 
-<!-- ===================== FOOTER ===================== -->
-<div align="center">
+<br/><br/>
 
-<br>
+## 📊 GitHub stats
 
-<b>Thanks for visiting!</b> &nbsp;•&nbsp; <i>Always learning • Always building • Always exploring the future of AI</i>
+<img width="100%" alt="GitHub stats and languages" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-metrics.svg"/>
 
-<img width="100%" alt="Footer banner" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=150&color=0:000428,50:004e92,100:00c6ff"/>
+<img width="100%" alt="Contribution calendar and streak" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-streak.svg"/>
+
+<br/><br/>
+
+<!-- LET'S CONNECT -->
+<img src="./assets/connect.svg" alt="Let's connect" width="100%"/>
+
+<a href="https://www.linkedin.com/in/maddipatla-chetan/"><img src="https://img.shields.io/badge/LinkedIn-3b82f6?style=for-the-badge&logo=linkedin&logoColor=0d1117" alt="LinkedIn"/></a>
+<a href="mailto:chetan121318@gmail.com"><img src="https://img.shields.io/badge/Email-22d3ee?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email"/></a>
+<a href="https://github.com/MaddipatlaChetan24"><img src="https://img.shields.io/badge/GitHub-a78bfa?style=for-the-badge&logo=github&logoColor=0d1117" alt="GitHub"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&color=3b82f6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/>
+
+**Always learning, always building.** 💙
 
 </div>

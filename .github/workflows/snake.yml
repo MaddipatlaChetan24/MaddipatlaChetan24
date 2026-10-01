@@ -1,6 +1,7 @@
 name: Generate Profile Cards
 
-# Builds the snake, stats, languages and streak cards with your own token,
+# Builds the snake, 3D contribution city, developer dashboard, stats,
+# languages and streak cards with your own token,
 # so they keep working while your GitHub profile is private.
 # Requires a repository secret named PROFILE_TOKEN (classic personal access
 # token with the read:user and repo scopes).
@@ -21,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: Contribution snake
         uses: Platane/snk@v3
         with:
@@ -58,9 +61,22 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+      - name: Developer dashboard
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python3 scripts/profile_cards.py dashboard "$RUNNER_TEMP/cards"
+
+      - name: 3D contribution city
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
       - name: Collect cards
         run: |
           sudo cp /metrics_renders/github-metrics.svg /metrics_renders/github-streak.svg dist/
+          sudo cp "$RUNNER_TEMP/cards/dashboard.svg" dist/
+          sudo cp profile-3d-contrib/profile-night-view.svg dist/contribution-city.svg
           sudo chown -R "$(id -u):$(id -g)" dist
 
       - name: Publish to output branch
