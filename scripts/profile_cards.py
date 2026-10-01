@@ -114,7 +114,7 @@ def tag(x, y, label, color):
 def hero():
     W, H = 1280, 540
     roles = ["AI / ML Engineer", "Generative AI Developer", "Multi-Agent Systems Builder",
-             "TensorFlow Contributor"]
+             "LLM &amp; RAG Engineer"]
     n, per = len(roles), 3.2
     total = n * per
     role_css = "".join(
@@ -143,7 +143,7 @@ def hero():
         body.append(f'<text class="r{i} mono" x="92" y="322" font-size="24" fill="{TEXT}">{r}</text>')
     body.append(f'<text x="64" y="378" font-size="19" fill="{MUTED}">I build LLM applications, RAG pipelines and multi-agent systems,</text>')
     body.append(f'<text x="64" y="406" font-size="19" fill="{MUTED}">and ship them with FastAPI, Docker and tested code.</text>')
-    meta = [(CYAN, "B.Tech CSE (Core)"), (VIOLET, "Open source: TensorFlow · MongoDB · Uber")]
+    meta = [(CYAN, "B.Tech CSE (Core)"), (VIOLET, "LLMs · RAG · Multi-agent systems")]
     x = 64
     for col, label in meta:
         body.append(f'<circle cx="{x+7}" cy="447" r="6" fill="none" stroke="{col}" stroke-width="2"/><circle cx="{x+7}" cy="447" r="2" fill="{col}"/>'
@@ -619,7 +619,7 @@ def dashboard(d):
              f'<text x="{RX+180}" y="326" font-size="40" font-weight="800" fill="{TEXT}">{d["best_streak"]}</text>'
              f'<text x="{RX+180}" y="352" class="mono" font-size="10.5" letter-spacing="2" fill="{MUTED}">BEST · DAYS</text>')
     focus = [("BUILDING", "Multi-agent AI systems", CYAN), ("EXPLORING", "LLM fine-tuning &amp; MLOps", VIOLET),
-             ("OPEN SOURCE", "TensorFlow · MongoDB · Uber", PINK)]
+             ("SHIPPING", "FastAPI · Docker · tested code", PINK)]
     b.append(f'<rect x="{RX}" y="396" width="344" height="150" rx="16" fill="#111827" stroke="#1e293b"/>')
     for i, (k, v, col) in enumerate(focus):
         y = 426 + i * 42
@@ -629,7 +629,7 @@ def dashboard(d):
     return svg(W, H, "Developer ID and dashboard", "".join(b), css)
 
 
-# ---------------------------------------------------------------- public profile data
+# ---------------------------------------------------------------- public repo data
 
 DATA_QUERY = """
 query($login:String!){
@@ -646,10 +646,6 @@ query($login:String!){
         workflows: object(expression:"HEAD:.github/workflows"){ id }
         tests: object(expression:"HEAD:tests"){ id }
       }
-    }
-    pullRequests(first:100, states:MERGED, orderBy:{field:CREATED_AT, direction:DESC}){
-      nodes{ title url mergedAt additions deletions
-             repository{ nameWithOwner isPrivate stargazerCount owner{ login } } }
     }
   }
 }"""
@@ -677,15 +673,8 @@ def fetch_public_data():
             "docker": bool(r["dockerfile"] or r["compose"]), "ci": bool(r["workflows"]),
             "tests": bool(r["tests"]),
         })
-    external = [
-        {"repo": p["repository"]["nameWithOwner"], "stars": p["repository"]["stargazerCount"],
-         "title": p["title"], "url": p["url"], "merged": p["mergedAt"][:10],
-         "additions": p["additions"], "deletions": p["deletions"]}
-        for p in u["pullRequests"]["nodes"]
-        if not p["repository"]["isPrivate"] and p["repository"]["owner"]["login"].lower() != USER.lower()
-    ]
     return {"pinned": [n["name"] for n in u["pinnedItems"]["nodes"] if n],
-            "repos": repos, "external_merged_prs": external}
+            "repos": repos}
 
 
 def main():
