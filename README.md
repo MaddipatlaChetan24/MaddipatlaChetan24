@@ -141,12 +141,11 @@ GitHub Stats
 
 <div align="center">
 
-<img height="180" alt="GitHub stats" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00c6ff&icon_color=00c6ff&text_color=c9d1d9&ring_color=00c6ff&cache_seconds=1800"/>
+<img height="180" alt="GitHub stats" src="https://github-readme-stats.shion.dev/api?username=MaddipatlaChetan24&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117&title_color=00c6ff&icon_color=00c6ff&text_color=c9d1d9&ring_color=00c6ff&cache_seconds=1800"/>
 <img height="180" alt="Top languages" src="https://github-readme-stats.shion.dev/api/top-langs/?username=MaddipatlaChetan24&layout=compact&hide_border=true&count_private=true&bg_color=0d1117&title_color=00c6ff&text_color=c9d1d9&cache_seconds=1800"/>
 
 <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=MaddipatlaChetan24&hide_border=true&background=0D1117&ring=00C6FF&fire=00C6FF&currStreakLabel=00C6FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D"/>
 
-<img width="100%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=MaddipatlaChetan24&bg_color=0d1117&color=00c6ff&line=00c6ff&point=ffffff&area=true&area_color=004e92&hide_border=true&custom_title=Contribution%20Activity"/>
 
 </div>
 
