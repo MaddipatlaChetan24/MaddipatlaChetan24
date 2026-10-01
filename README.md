@@ -55,14 +55,6 @@
 
 <br/><br/>
 
-## 📊 GitHub stats
-
-<img width="100%" alt="GitHub stats and languages" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-metrics.svg"/>
-
-<img width="100%" alt="Contribution calendar and streak" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-streak.svg"/>
-
-<br/><br/>
-
 <!-- LET'S CONNECT -->
 <img src="./assets/connect.svg" alt="Let's connect" width="100%"/>
 

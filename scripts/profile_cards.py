@@ -124,10 +124,8 @@ def hero():
 @keyframes role{{0%{{opacity:0;transform:translateY(10px)}}{vis*.12:.2f}%{{opacity:1;transform:translateY(0)}}{vis*.85:.2f}%{{opacity:1;transform:translateY(0)}}{vis:.2f}%{{opacity:0;transform:translateY(-8px)}}100%{{opacity:0}}}}
 {role_css}
 .caret{{animation:blink 1s steps(1) infinite}}@keyframes blink{{50%{{opacity:0}}}}
-.flow{{stroke-dasharray:6 14;animation:flow 1.6s linear infinite}}@keyframes flow{{to{{stroke-dashoffset:-40}}}}
-.node{{animation:node 2.4s ease-in-out infinite}}@keyframes node{{0%,100%{{r:7;opacity:.55}}50%{{r:10;opacity:1}}}}
-.bar{{animation:bar 6s linear infinite}}@keyframes bar{{from{{width:0}}to{{width:476px}}}}
 .under{{animation:under 4s ease-in-out infinite alternate}}@keyframes under{{from{{width:90px}}to{{width:220px}}}}
+{SCENE_CSS}
 .orb{{animation:orb 9s ease-in-out infinite alternate}}@keyframes orb{{to{{transform:translate(40px,30px)}}}}
 """
     body = [panel(0, 0, W, H, 26)]
@@ -151,41 +149,105 @@ def hero():
         body.append(f'<circle cx="{x+7}" cy="447" r="6" fill="none" stroke="{col}" stroke-width="2"/><circle cx="{x+7}" cy="447" r="2" fill="{col}"/>'
                     f'<text x="{x+22}" y="452" class="mono" font-size="14" fill="{MUTED}">{t(label)}</text>')
         x += 32 + len(label) * 8.6
-    # right: neural network in a viewfinder
-    fx, fy, fw, fh = 760, 40, 476, 460
-    c = "#cbd5e1"
-    for (ax, ay, dx, dy) in [(fx, fy, 1, 1), (fx + fw, fy, -1, 1), (fx, fy + fh, 1, -1), (fx + fw, fy + fh, -1, -1)]:
-        body.append(f'<path d="M{ax} {ay+dy*34}V{ay}H{ax+dx*28}" fill="none" stroke="{c}" stroke-opacity=".7" stroke-width="2"/>')
-    body.append(f'<text x="{fx+20}" y="{fy+36}" class="mono" font-size="12" letter-spacing="2" fill="{DIM}">NEURAL NET · LIVE</text>')
-    layers = [3, 5, 5, 4, 2]
-    xs = [fx + 70 + i * 84 for i in range(len(layers))]
-    pts = []
-    for li, cnt in enumerate(layers):
-        gap = 300 / max(cnt - 1, 1) if cnt > 1 else 0
-        top = fy + 80 + (300 - gap * (cnt - 1)) / 2
-        pts.append([(xs[li], top + j * gap) for j in range(cnt)])
-    k = 0
-    for li in range(len(layers) - 1):
-        for a in pts[li]:
-            for b in pts[li + 1]:
-                body.append(f'<line x1="{a[0]}" y1="{a[1]:.1f}" x2="{b[0]}" y2="{b[1]:.1f}" stroke="#1e3a5f" stroke-width="1"/>')
-                if (k * 7) % 5 == 0:
-                    col = [CYAN, BLUE, VIOLET][k % 3]
-                    body.append(f'<line class="flow" style="animation-delay:-{(k%9)*.17:.2f}s" x1="{a[0]}" y1="{a[1]:.1f}" x2="{b[0]}" y2="{b[1]:.1f}" stroke="{col}" stroke-width="1.6" stroke-opacity=".85"/>')
-                k += 1
-    cols = [CYAN, BLUE, INDIGO, VIOLET, PINK]
-    for li, layer in enumerate(pts):
-        for j, (px, py) in enumerate(layer):
-            body.append(f'<circle cx="{px}" cy="{py:.1f}" r="13" fill="#0d1117" stroke="{cols[li]}" stroke-opacity=".5"/>'
-                        f'<circle class="node" style="animation-delay:{(li*0.35+j*0.2):.2f}s" cx="{px}" cy="{py:.1f}" r="8" fill="{cols[li]}"/>')
-    for lbl, li in [("INPUT", 0), ("HIDDEN", 2), ("OUTPUT", 4)]:
-        body.append(f'<text x="{xs[li]}" y="{fy+412}" text-anchor="middle" class="mono" font-size="11" letter-spacing="2" fill="{DIM}">{lbl}</text>')
-    body.append(f'<circle class="pulse" cx="{fx+22}" cy="{fy+fh-36}" r="5" fill="#ef4444"/>'
-                f'<text x="{fx+34}" y="{fy+fh-31}" class="mono" font-size="13" font-weight="700" letter-spacing="2" fill="{TEXT}">TRAINING</text>'
-                f'<text x="{fx+fw-20}" y="{fy+fh-31}" text-anchor="end" class="mono" font-size="12" letter-spacing="1.5" fill="{MUTED}">model.fit() · loss 0.031</text>'
-                f'<rect x="{fx}" y="{fy+fh-14}" width="{fw}" height="3" rx="1.5" fill="#1e293b"/>'
-                f'<rect class="bar" x="{fx}" y="{fy+fh-14}" width="0" height="3" rx="1.5" fill="url(#brand)"/>')
+    # right: me at my desk
+    body.append(desk_scene(760, 40))
     return svg(W, H, f"Hi, I'm {NAME} — AI Engineer", "".join(body), css)
+
+
+SKIN, SKIN_SHADE, HAIR = "#f2c9a0", "#d9a77c", "#16161f"
+SCENE_CSS = """
+.blink{transform-box:fill-box;transform-origin:center;animation:blink 4.5s infinite}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.nod{transform-box:fill-box;transform-origin:50% 100%;animation:nod 3.2s ease-in-out infinite}
+@keyframes nod{0%,100%{transform:rotate(0)}50%{transform:rotate(2deg)}}
+.type{animation:type .35s ease-in-out infinite alternate}
+.type2{animation:type .35s ease-in-out infinite alternate-reverse}
+@keyframes type{to{transform:translateY(3px)}}
+.steam{stroke-dasharray:30;animation:steam 2.6s linear infinite}
+@keyframes steam{0%{stroke-dashoffset:30;opacity:0}30%{opacity:.8}100%{stroke-dashoffset:-30;opacity:0}}
+.glow{animation:glow 2.2s ease-in-out infinite alternate}
+@keyframes glow{from{opacity:.25}to{opacity:.6}}
+.fl{animation:fl 4s ease-in-out infinite alternate}
+@keyframes fl{to{transform:translateY(-12px)}}
+.code{animation:code 6s linear infinite}
+@keyframes code{0%{opacity:0}10%,80%{opacity:1}90%,100%{opacity:0}}
+.status{animation:pulse 2s ease-in-out infinite}
+"""
+
+
+def desk_scene(ox, oy):
+    """Illustration of me coding at a laptop (476 x 460 area)."""
+    g = [f'<g transform="translate({ox},{oy})">']
+    # backdrop blob + window
+    g.append(f'<path d="M60 120C90 40 210 10 300 40S470 120 450 240 360 410 240 400 30 330 40 230 40 160 60 120z" fill="#111d35"/>')
+    g.append(f'<rect x="300" y="52" width="120" height="96" rx="10" fill="#0b1528" stroke="#1e3a5f"/>'
+             f'<path d="M360 52v96M300 100h120" stroke="#1e3a5f"/>'
+             f'<circle cx="390" cy="78" r="9" fill="#e2e8f0" opacity=".8"/>')
+    for i in range(5):
+        g.append(f'<circle class="pulse" style="animation-delay:{i*.4:.1f}s" cx="{312+i*22}" cy="{122+(i%2)*12}" r="1.4" fill="#e2e8f0"/>')
+    # floating code card
+    g.append(f'<g class="fl"><rect x="34" y="70" width="150" height="92" rx="10" fill="#0d1117" stroke="{CYAN}" stroke-opacity=".5"/>'
+             f'<circle cx="48" cy="84" r="3.5" fill="#ff5f57"/><circle cx="60" cy="84" r="3.5" fill="#febc2e"/><circle cx="72" cy="84" r="3.5" fill="#28c840"/>')
+    code = [(CYAN, 58), (VIOLET, 96), (GREEN, 74), (PINK, 104), (AMBER, 64)]
+    for i, (col, w) in enumerate(code):
+        g.append(f'<rect class="code" style="animation-delay:{i*.5:.1f}s" x="{48+(i%2)*12}" y="{98+i*12}" width="{w}" height="5" rx="2.5" fill="{col}" opacity=".85"/>')
+    g.append('</g>')
+    # floating tags
+    for i, (lbl, x, y, col) in enumerate([("LLM", 60, 212, VIOLET), ("RAG", 392, 186, CYAN), ("&lt;/&gt;", 104, 244, PINK), ("agents", 356, 236, GREEN)]):
+        w = 18 + len(lbl.replace("&lt;", "<").replace("&gt;", ">")) * 9
+        g.append(f'<g class="fl" style="animation-delay:{i*.7:.1f}s"><rect x="{x}" y="{y}" width="{w}" height="26" rx="13" fill="#0d1117" stroke="{col}"/>'
+                 f'<text x="{x+w/2}" y="{y+17.5}" text-anchor="middle" class="mono" font-size="12.5" font-weight="700" fill="{col}">{lbl}</text></g>')
+    # plant
+    g.append(f'<path d="M66 352c-20-30-30-60-6-78 4 24 12 46 10 78z" fill="#15803d"/>'
+             f'<path d="M74 352c4-34 22-58 44-62-10 22-22 44-34 62z" fill="#22c55e"/>'
+             f'<path d="M70 352c-6-24-2-48 10-66 6 24 2 46-4 66z" fill="#16a34a"/>'
+             f'<path d="M50 350h48l-6 34H56z" fill="#f472b6" opacity=".85"/>')
+    # lamp
+    g.append(f'<path d="M412 384v-6M412 378l-30-92 -40 22" stroke="#64748b" stroke-width="4" fill="none" stroke-linecap="round"/>'
+             f'<path d="M318 300l36-26 14 20-36 24z" fill="{AMBER}"/>'
+             f'<ellipse cx="412" cy="386" rx="22" ry="5" fill="#475569"/>')
+    # chair back
+    g.append(f'<rect x="164" y="214" width="148" height="190" rx="34" fill="#1e293b"/>')
+    # body: white tee over black long sleeves, headphones round the neck
+    g.append(f'<path d="M176 392c0-70 18-120 62-126s62 56 62 126z" fill="#f1f5f9"/>'
+             f'<path d="M180 330c4-30 14-52 30-60l-6 46zM296 330c-4-30-14-52-30-60l6 46z" fill="#1f2937"/>'
+             f'<path d="M222 270q16 12 32 0" stroke="#cbd5e1" stroke-width="3" fill="none"/>')
+    # head
+    g.append('<g class="nod">')
+    g.append(f'<rect x="227" y="232" width="22" height="30" rx="8" fill="{SKIN_SHADE}"/>'
+             f'<path d="M204 262q34 22 68 0" stroke="#111827" stroke-width="7" fill="none" stroke-linecap="round"/>'
+             f'<rect x="196" y="246" width="16" height="24" rx="7" fill="#111827"/><rect x="264" y="246" width="16" height="24" rx="7" fill="#111827"/>'
+             f'<rect x="200" y="252" width="8" height="12" rx="3" fill="#475569"/><rect x="268" y="252" width="8" height="12" rx="3" fill="#475569"/>'
+             f'<circle cx="198" cy="206" r="9" fill="{SKIN_SHADE}"/><circle cx="278" cy="206" r="9" fill="{SKIN_SHADE}"/>'
+             f'<ellipse cx="238" cy="202" rx="40" ry="42" fill="{SKIN}"/>'
+             f'<path d="M194 204c-10-30 -2-56 18-66l-6 14 14-20 4 14 12-18 6 16 14-16 2 16 16-10-4 16c14 6 22 24 16 54-4-14-10-24-18-30l2 14-12-16-4 14-10-14-6 14-8-14-6 14-8-12-4 14c-8 4-14 10-20 26z" fill="{HAIR}"/>'
+             f'<path d="M214 210q8-9 16 0M246 210q8-9 16 0" stroke="#1b1b26" stroke-width="3" fill="none" stroke-linecap="round"/>'
+             f'<ellipse cx="212" cy="222" rx="7" ry="4" fill="#f87171" opacity=".35"/><ellipse cx="264" cy="222" rx="7" ry="4" fill="#f87171" opacity=".35"/>'
+             f'<path d="M224 226q14 14 28 0z" fill="#7c2d12"/><path d="M228 228q10 6 20 0" fill="#fda4af"/>')
+    g.append('</g>')
+    # arms reaching to keyboard
+    g.append(f'<path d="M186 320c-10 22-6 46 14 56l26 4" stroke="#1f2937" stroke-width="22" fill="none" stroke-linecap="round"/>'
+             f'<path d="M290 320c10 22 6 46-14 56l-26 4" stroke="#1f2937" stroke-width="22" fill="none" stroke-linecap="round"/>'
+             f'<circle class="type" cx="222" cy="378" r="10" fill="{SKIN}"/><circle class="type2" cx="254" cy="378" r="10" fill="{SKIN}"/>')
+    # desk + laptop (back of lid facing us)
+    g.append(f'<rect x="14" y="384" width="448" height="12" rx="6" fill="#334155"/>'
+             f'<path d="M60 396v28M416 396v28" stroke="#334155" stroke-width="8"/>'
+             f'<path d="M176 300h124l10 84H166z" fill="#94a3b8"/>'
+             f'<path d="M180 304h116l9 76H171z" fill="#cbd5e1"/>'
+             f'<circle cx="238" cy="342" r="13" fill="{CYAN}" opacity=".85"/>'
+             f'<text x="238" y="347" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#0d1117">AI</text>'
+             f'<rect x="150" y="380" width="176" height="8" rx="4" fill="#64748b"/>')
+    # coffee
+    g.append(f'<path d="M352 352h30v26a8 8 0 0 1-8 8h-14a8 8 0 0 1-8-8z" fill="#f8fafc"/>'
+             f'<path d="M382 358c10 0 10 16 0 16" stroke="#f8fafc" stroke-width="4" fill="none"/>'
+             f'<path class="steam" d="M360 344c-6-8 6-12 0-22" stroke="#cbd5e1" stroke-width="2.5" fill="none" stroke-linecap="round"/>'
+             f'<path class="steam" style="animation-delay:1.1s" d="M372 344c-6-8 6-12 0-22" stroke="#cbd5e1" stroke-width="2.5" fill="none" stroke-linecap="round"/>')
+    # status line
+    g.append(f'<circle class="status" cx="22" cy="440" r="5" fill="{GREEN}"/>'
+             f'<text x="34" y="445" class="mono" font-size="13" font-weight="700" letter-spacing="2" fill="{TEXT}">ONLINE</text>'
+             f'<text x="456" y="445" text-anchor="end" class="mono" font-size="12" letter-spacing="1.5" fill="{MUTED}">building agents · shipping AI</text>')
+    g.append('</g>')
+    return "".join(g)
 
 
 # ---------------------------------------------------------------- about
