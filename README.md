@@ -5,7 +5,10 @@
 **AI / ML engineer specializing in Generative AI: LLM applications, RAG and multi-agent systems.**<br/>
 B.Tech Computer Science (Core)
 
-[LinkedIn](https://www.linkedin.com/in/maddipatla-chetan/) · [Email](mailto:chetan121318@gmail.com)
+<a href="https://www.linkedin.com/in/maddipatla-chetan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:chetan121318@gmail.com"><img src="https://img.shields.io/badge/Email-22d3ee?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email"/></a>
+<a href="https://github.com/MaddipatlaChetan24"><img src="https://img.shields.io/badge/GitHub-a78bfa?style=for-the-badge&logo=github&logoColor=0d1117" alt="GitHub"/></a>
+<img src="https://komarev.com/ghpvc/?username=MaddipatlaChetan24&color=3b82f6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
