@@ -141,7 +141,20 @@ My goal is to bridge research and real-world applications by developing scalable
 </p>
 
 <p align="center">
+<img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=MaddipatlaChetan24&theme=github-dark-blue&hide_border=true"/>
+</p>
 
+<br>
+
+<h2 align="center">Contribution Snake</h2>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake.svg"/>
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/MaddipatlaChetan24/MaddipatlaChetan24/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+</p>
 
 <br>
 
