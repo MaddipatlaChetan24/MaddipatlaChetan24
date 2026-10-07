@@ -1030,6 +1030,56 @@ def footer():
     return svg(W, H, "Thanks for visiting", "".join(b), css)
 
 
+# ---------------------------------------------------------------- open PR report (log only)
+
+PR_QUERY = """
+query($login:String!, $cursor:String){
+  user(login:$login){
+    pullRequests(first:100, states:OPEN, after:$cursor, orderBy:{field:CREATED_AT, direction:DESC}){
+      pageInfo{ hasNextPage endCursor }
+      nodes{
+        title url createdAt reviewDecision additions deletions
+        repository{ nameWithOwner isPrivate owner{ login } }
+        labels(first:15){ nodes{ name } }
+        reviews(states:APPROVED, first:10){ totalCount nodes{ author{ login } } }
+      }
+    }
+  }
+}"""
+
+
+def report_open_prs():
+    """Print open PRs to other people's public repos with their review status (log only)."""
+    token = os.environ["PROFILE_TOKEN"]
+    rows, cursor = [], None
+    while True:
+        req = urllib.request.Request(
+            "https://api.github.com/graphql",
+            data=json.dumps({"query": PR_QUERY, "variables": {"login": USER, "cursor": cursor}}).encode(),
+            headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"})
+        data = json.load(urllib.request.urlopen(req, timeout=30))
+        if data.get("errors"):
+            raise RuntimeError(data["errors"])
+        prs = data["data"]["user"]["pullRequests"]
+        for p in prs["nodes"]:
+            r = p["repository"]
+            if r["isPrivate"] or r["owner"]["login"].lower() == USER.lower():
+                continue
+            labels = [l["name"] for l in p["labels"]["nodes"]]
+            approvers = sorted({n["author"]["login"] for n in p["reviews"]["nodes"] if n["author"]})
+            accepted = (p["reviewDecision"] == "APPROVED" or approvers
+                        or any(l.lower() in ("ready to pull", "approved", "lgtm") for l in labels))
+            rows.append((bool(accepted), r["nameWithOwner"], p["title"], p["url"], p["createdAt"][:10],
+                         p["reviewDecision"], approvers, labels, p["additions"], p["deletions"]))
+        if not prs["pageInfo"]["hasNextPage"]:
+            break
+        cursor = prs["pageInfo"]["endCursor"]
+    acc = [r for r in rows if r[0]]
+    print(f"OPEN_PRS_TOTAL={len(rows)} ACCEPTED_NOT_MERGED={len(acc)}")
+    for r in sorted(rows, key=lambda r: (not r[0], r[1], r[4])):
+        print("PRROW|" + "|".join(str(x) for x in r))
+
+
 def main():
     mode, out = sys.argv[1], Path(sys.argv[2])
     out.mkdir(parents=True, exist_ok=True)
@@ -1044,6 +1094,8 @@ def main():
             print("Using fallback dashboard data:", exc)
             data = FALLBACK
         (out / "dashboard.svg").write_text(dashboard(data))
+    elif mode == "prs":
+        report_open_prs()
     elif mode == "data":
         (out / "profile-data.json").write_text(json.dumps(fetch_public_data(), indent=1))
     else:

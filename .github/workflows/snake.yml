@@ -39,6 +39,7 @@ jobs:
         run: |
           python3 scripts/profile_cards.py dashboard "$RUNNER_TEMP/cards"
           python3 scripts/profile_cards.py data "$RUNNER_TEMP/cards"
+          python3 scripts/profile_cards.py prs "$RUNNER_TEMP/cards"
 
       - name: 3D contribution city
         uses: yoshi389111/github-profile-3d-contrib@latest
